@@ -1,0 +1,4642 @@
+[
+  {
+    "instruction": "Translate 'leather bead bird' into Warrungu.",
+    "input": "",
+    "output": "jagar"
+  },
+  {
+    "instruction": "Translate '1 do very swiftly (e. g. dance)' into Warrungu.",
+    "input": "",
+    "output": "ngaringaribi"
+  },
+  {
+    "instruction": "Translate 'l (comitative verb) dance to [music], dance with [someone]' into Warrungu.",
+    "input": "",
+    "output": "nyambari"
+  },
+  {
+    "instruction": "Translate '(class unknown) throw, water' into Warrungu.",
+    "input": "",
+    "output": "jilngga"
+  },
+  {
+    "instruction": "Translate 'l (comitative verb) go with [someone], go with [a bag, etc. ], go' into Warrungu.",
+    "input": "",
+    "output": "yaniri"
+  },
+  {
+    "instruction": "Translate 'water rat' into Warrungu.",
+    "input": "",
+    "output": "gorrgija"
+  },
+  {
+    "instruction": "Translate 'l tickle' into Warrungu.",
+    "input": "",
+    "output": "gijimba"
+  },
+  {
+    "instruction": "Translate '1 (Jalnguy ?) smell' into Warrungu.",
+    "input": "",
+    "output": "balmbi"
+  },
+  {
+    "instruction": "Translate 'meat' into Warrungu.",
+    "input": "",
+    "output": "jalgor"
+  },
+  {
+    "instruction": "Translate 'l (Jalnguy ?) drink (cf. bija)' into Warrungu.",
+    "input": "",
+    "output": "binja"
+  },
+  {
+    "instruction": "Translate '(class unknown) (Jalnguy?) hear. Cf. ngarrambila' into Warrungu.",
+    "input": "",
+    "output": "ngarraymbila"
+  },
+  {
+    "instruction": "Translate '1 cut into halves or quarters' into Warrungu.",
+    "input": "",
+    "output": "janonga"
+  },
+  {
+    "instruction": "Translate 'Jew fish' into Warrungu.",
+    "input": "",
+    "output": "jidawolo"
+  },
+  {
+    "instruction": "Translate '(Jalnguy. not Warrungu) dog' into Warrungu.",
+    "input": "",
+    "output": "wombal"
+  },
+  {
+    "instruction": "Translate '1 come out, go in (i. e. move through some passage ?), crack (of' into Warrungu.",
+    "input": "",
+    "output": "banda"
+  },
+  {
+    "instruction": "Translate 'Jew fish' into Warrungu.",
+    "input": "",
+    "output": "jidawolo"
+  },
+  {
+    "instruction": "Translate '1 make hot' into Warrungu.",
+    "input": "",
+    "output": "jawoynga"
+  },
+  {
+    "instruction": "Translate '(class unknown) take out dust firom ground (earth, hole)' into Warrungu.",
+    "input": "",
+    "output": "girrbi"
+  },
+  {
+    "instruction": "Translate '(1) blue tongue lizard, (2) place (near Cashmere and Tiger' into Warrungu.",
+    "input": "",
+    "output": "banggarra"
+  },
+  {
+    "instruction": "Translate '3 (?) (Djabugay?) get up' into Warrungu.",
+    "input": "",
+    "output": "walmbirri"
+  },
+  {
+    "instruction": "Translate '(class 3?) feel itchy' into Warrungu.",
+    "input": "",
+    "output": "mirriji"
+  },
+  {
+    "instruction": "What is an example of Warrungu sentence structure for: Marks possessor; head noun unmarked?",
+    "input": "",
+    "output": "minga-0 ngaygo"
+  },
+  {
+    "instruction": "Translate '(class unknown) crawl' into Warrungu.",
+    "input": "",
+    "output": "joyma"
+  },
+  {
+    "instruction": "Translate 'fresh water flathead (a type of fish)' into Warrungu.",
+    "input": "",
+    "output": "jonggorra"
+  },
+  {
+    "instruction": "Translate '3 whistle' into Warrungu.",
+    "input": "",
+    "output": "gobili"
+  },
+  {
+    "instruction": "Translate '1 sing out like a dog' into Warrungu.",
+    "input": "",
+    "output": "wayowayobi"
+  },
+  {
+    "instruction": "Translate '(reciprocal) (class unknown) leave one each other/one' into Warrungu.",
+    "input": "",
+    "output": "wandawa"
+  },
+  {
+    "instruction": "Translate 'scrub possum' into Warrungu.",
+    "input": "",
+    "output": "jola"
+  },
+  {
+    "instruction": "Translate '(class unknown) stick, make ... stuck (in a place etc.)' into Warrungu.",
+    "input": "",
+    "output": "jalba"
+  },
+  {
+    "instruction": "Translate '1 lose, extinguish [fire]' into Warrungu.",
+    "input": "",
+    "output": "wolanga"
+  },
+  {
+    "instruction": "Translate '(class unknown) dip a tool and get [water]' into Warrungu.",
+    "input": "",
+    "output": "wayi"
+  },
+  {
+    "instruction": "Translate 'smell of fish' into Warrungu.",
+    "input": "",
+    "output": "boynyjal"
+  },
+  {
+    "instruction": "Translate 'l do something to one's own.., carry one's own' into Warrungu.",
+    "input": "",
+    "output": "warayinga"
+  },
+  {
+    "instruction": "Translate '(class unknown) throw, water' into Warrungu.",
+    "input": "",
+    "output": "jilngga"
+  },
+  {
+    "instruction": "Translate '2 be drowned' into Warrungu.",
+    "input": "",
+    "output": "jojorra"
+  },
+  {
+    "instruction": "Translate '(loc: waga-ja) wish bone (of fish)' into Warrungu.",
+    "input": "",
+    "output": "wagay"
+  },
+  {
+    "instruction": "Translate '1 shoot, hit with a boomerang, etc.' into Warrungu.",
+    "input": "",
+    "output": "bambo"
+  },
+  {
+    "instruction": "Translate '(class unknown, I?) bury (not only a corpse in a grave-hole' into Warrungu.",
+    "input": "",
+    "output": "jabobaga"
+  },
+  {
+    "instruction": "Translate 'any bird' into Warrungu.",
+    "input": "",
+    "output": "robiny"
+  },
+  {
+    "instruction": "Translate 'l be/become friend' into Warrungu.",
+    "input": "",
+    "output": "majowarrgibi"
+  },
+  {
+    "instruction": "Translate 'l (instrumental verb) hit... with ...' into Warrungu.",
+    "input": "",
+    "output": "jinggari"
+  },
+  {
+    "instruction": "Translate 'vine poison, used to intoxicate fish when fishing' into Warrungu.",
+    "input": "",
+    "output": "ngayaba"
+  },
+  {
+    "instruction": "Translate '3 feel well' into Warrungu.",
+    "input": "",
+    "output": "binyjilbinyjili"
+  },
+  {
+    "instruction": "Translate '1 rub, wipe, stroke, chafe' into Warrungu.",
+    "input": "",
+    "output": "jobi"
+  },
+  {
+    "instruction": "Translate '(?) sweet (Probably guru^gaji 'honey^counterfactual', i. e.' into Warrungu.",
+    "input": "",
+    "output": "gorogaji"
+  },
+  {
+    "instruction": "Translate 'l hangup' into Warrungu.",
+    "input": "",
+    "output": "wandi"
+  },
+  {
+    "instruction": "Translate '(class unknown) sit down about' into Warrungu.",
+    "input": "",
+    "output": "nyinanda"
+  },
+  {
+    "instruction": "Translate '(class unknown) fly (of bird)' into Warrungu.",
+    "input": "",
+    "output": "yambi"
+  },
+  {
+    "instruction": "Translate 'l (1) show, teach, (2) look over, look up' into Warrungu.",
+    "input": "",
+    "output": "jili-ngonbaynga"
+  },
+  {
+    "instruction": "What is an example of Warrungu sentence structure for: Antipassive lowers valency, original ergative becomes nominative?",
+    "input": "",
+    "output": "mori-mori-0 nyawa goyba-gali-n"
+  },
+  {
+    "instruction": "Translate '(class unknown) wade [a river or the sea]' into Warrungu.",
+    "input": "",
+    "output": "janda"
+  },
+  {
+    "instruction": "Translate '(class unknown) pinch, make.. blunt' into Warrungu.",
+    "input": "",
+    "output": "nyinda"
+  },
+  {
+    "instruction": "Translate '1 knock over, push over' into Warrungu.",
+    "input": "",
+    "output": "goybaranga"
+  },
+  {
+    "instruction": "Translate 'l camp about' into Warrungu.",
+    "input": "",
+    "output": "wonajawonajabi"
+  },
+  {
+    "instruction": "Translate '(class 1 ?) rest, lean' into Warrungu.",
+    "input": "",
+    "output": "wambi"
+  },
+  {
+    "instruction": "Translate '1 [stay] for three nights' into Warrungu.",
+    "input": "",
+    "output": "gorrbarabi"
+  },
+  {
+    "instruction": "Translate '3 fear, be frightened' into Warrungu.",
+    "input": "",
+    "output": "wanbali"
+  },
+  {
+    "instruction": "Translate '(class unknown) go past' into Warrungu.",
+    "input": "",
+    "output": "bajonda"
+  },
+  {
+    "instruction": "Translate 'l sneeze, snore' into Warrungu.",
+    "input": "",
+    "output": "jingorrajingorrabi"
+  },
+  {
+    "instruction": "Translate '3 (?) (Jalnguy ?, song word) sleep (barguli ?)' into Warrungu.",
+    "input": "",
+    "output": "balgoli"
+  },
+  {
+    "instruction": "Translate 'l satiate [someone] (of food).' into Warrungu.",
+    "input": "",
+    "output": "boloyinga"
+  },
+  {
+    "instruction": "Translate '(class unknown) (all) have gone' into Warrungu.",
+    "input": "",
+    "output": "yaniya"
+  },
+  {
+    "instruction": "What is the Warrungu word for 'Paternal Grandmother (FM)'?",
+    "input": "",
+    "output": "gami"
+  },
+  {
+    "instruction": "Translate '(class unknown) (not a Warmngu word but a Jirrbal word ??)' into Warrungu.",
+    "input": "",
+    "output": "jagoma"
+  },
+  {
+    "instruction": "Translate '1 make [someone/something] his/hers' into Warrungu.",
+    "input": "",
+    "output": "nyongonga"
+  },
+  {
+    "instruction": "Translate '(not Warrungu) horse. See jayari'horse'.' into Warrungu.",
+    "input": "",
+    "output": "yarraman"
+  },
+  {
+    "instruction": "Translate 'bony bream (lives in fresh water and jumps)' into Warrungu.",
+    "input": "",
+    "output": "bandala"
+  },
+  {
+    "instruction": "Translate 'fresh water perch' into Warrungu.",
+    "input": "",
+    "output": "gorrba"
+  },
+  {
+    "instruction": "Translate '(Jalnguy?) small goanna. Cf. wanggu' into Warrungu.",
+    "input": "",
+    "output": "gamari"
+  },
+  {
+    "instruction": "What is the Warrungu word for 'Maternal Grandfather (MF)'?",
+    "input": "",
+    "output": "ngaji"
+  },
+  {
+    "instruction": "Translate '3 have a spell' into Warrungu.",
+    "input": "",
+    "output": "wombili"
+  },
+  {
+    "instruction": "Translate 'emu' into Warrungu.",
+    "input": "",
+    "output": "gabirri"
+  },
+  {
+    "instruction": "Translate '1 know, get to know, learn' into Warrungu.",
+    "input": "",
+    "output": "jilbaybi"
+  },
+  {
+    "instruction": "Translate '1 let go, release [person, fart]' into Warrungu.",
+    "input": "",
+    "output": "bindaynga"
+  },
+  {
+    "instruction": "Translate 'type of turtle' into Warrungu.",
+    "input": "",
+    "output": "bogawo"
+  },
+  {
+    "instruction": "Translate 'l cure' into Warrungu.",
+    "input": "",
+    "output": "joranga"
+  },
+  {
+    "instruction": "Translate '(class unknown) go round' into Warrungu.",
+    "input": "",
+    "output": "waymbarra"
+  },
+  {
+    "instruction": "What is an example of Warrungu sentence structure for: Variable placement of negation adverbs?",
+    "input": "",
+    "output": "nyawa ..."
+  },
+  {
+    "instruction": "Translate '(class unknown) walk about' into Warrungu.",
+    "input": "",
+    "output": "yanira"
+  },
+  {
+    "instruction": "Translate 'Jew fish' into Warrungu.",
+    "input": "",
+    "output": "golga"
+  },
+  {
+    "instruction": "Translate '3 be glad, want someone to do ...' into Warrungu.",
+    "input": "",
+    "output": "yimirri"
+  },
+  {
+    "instruction": "Translate 'l be/become scrub' into Warrungu.",
+    "input": "",
+    "output": "jolgibi"
+  },
+  {
+    "instruction": "Translate '(not Warmngu?) crayfish' into Warrungu.",
+    "input": "",
+    "output": "jolarr"
+  },
+  {
+    "instruction": "Translate '(class unknown) dig' into Warrungu.",
+    "input": "",
+    "output": "birnggo"
+  },
+  {
+    "instruction": "What is the Warrungu nominative singular pronoun for '2nd'?",
+    "input": "",
+    "output": "yinda"
+  },
+  {
+    "instruction": "Translate 'whip (made of kangaroo skin)' into Warrungu.",
+    "input": "",
+    "output": "baan"
+  },
+  {
+    "instruction": "Translate '1 send [something] to south, look to the south' into Warrungu.",
+    "input": "",
+    "output": "golbilanga"
+  },
+  {
+    "instruction": "Translate 'a way of fishing, in which many people roll branches' into Warrungu.",
+    "input": "",
+    "output": "gobo-molgarra"
+  },
+  {
+    "instruction": "Translate '1 punch (with fist, with a stone)' into Warrungu.",
+    "input": "",
+    "output": "jingga"
+  },
+  {
+    "instruction": "Translate '1 go down to gully' into Warrungu.",
+    "input": "",
+    "output": "birowobi"
+  },
+  {
+    "instruction": "Translate '(1) grass, (2) small kangaroo grass (as opposed to gajan)' into Warrungu.",
+    "input": "",
+    "output": "yago"
+  },
+  {
+    "instruction": "Translate '(class unknown) hide (by putting in a hole? cf. garbi)' into Warrungu.",
+    "input": "",
+    "output": "boyba"
+  },
+  {
+    "instruction": "Translate '(class unknown) sleep about' into Warrungu.",
+    "input": "",
+    "output": "wonanda"
+  },
+  {
+    "instruction": "Translate '(?) (class imknown) round .. up (with a net)' into Warrungu.",
+    "input": "",
+    "output": "jawa"
+  },
+  {
+    "instruction": "Translate '2 die, wither' into Warrungu.",
+    "input": "",
+    "output": "wola"
+  },
+  {
+    "instruction": "Translate '1 (instrumental verb) to pour ... in ...' into Warrungu.",
+    "input": "",
+    "output": "galgari"
+  },
+  {
+    "instruction": "Translate '(Jalnguy?, other language ?) water' into Warrungu.",
+    "input": "",
+    "output": "goygarra"
+  },
+  {
+    "instruction": "Translate 'type of long fish' into Warrungu.",
+    "input": "",
+    "output": "gondamo"
+  },
+  {
+    "instruction": "Translate 'tooth, seed, name' into Warrungu.",
+    "input": "",
+    "output": "rirra"
+  },
+  {
+    "instruction": "Translate '(class unknown) might die' into Warrungu.",
+    "input": "",
+    "output": "wolayi"
+  },
+  {
+    "instruction": "Translate 'l (1) (instrumental verb) see .. by means of ..., (2) see [a' into Warrungu.",
+    "input": "",
+    "output": "nyagari"
+  },
+  {
+    "instruction": "Translate '(reflexive) roll oneself' into Warrungu.",
+    "input": "",
+    "output": "balbali"
+  },
+  {
+    "instruction": "Translate 'l eat' into Warrungu.",
+    "input": "",
+    "output": "moja"
+  },
+  {
+    "instruction": "Translate '(class unknown) cut (e. g. wood)' into Warrungu.",
+    "input": "",
+    "output": "mayiga"
+  },
+  {
+    "instruction": "Translate 'l (instrumental verb) hit with' into Warrungu.",
+    "input": "",
+    "output": "balgari"
+  },
+  {
+    "instruction": "Translate '1 be/become fat' into Warrungu.",
+    "input": "",
+    "output": "jamibayabi"
+  },
+  {
+    "instruction": "Translate '1 take to where, do how, do what' into Warrungu.",
+    "input": "",
+    "output": "wanyjanga"
+  },
+  {
+    "instruction": "Translate 'l roll' into Warrungu.",
+    "input": "",
+    "output": "balba"
+  },
+  {
+    "instruction": "Translate '(class unknown) (Jalnguy?) fall down (-la past tense?)' into Warrungu.",
+    "input": "",
+    "output": "nyarraymbi-la"
+  },
+  {
+    "instruction": "Translate '(?) boy about 15, 16 ... years old (muyngga 'cicatrices-tribal' into Warrungu.",
+    "input": "",
+    "output": "moynggayi"
+  },
+  {
+    "instruction": "Translate '1 be/become greedy' into Warrungu.",
+    "input": "",
+    "output": "jalanbi"
+  },
+  {
+    "instruction": "Translate 'meat' into Warrungu.",
+    "input": "",
+    "output": "robiny"
+  },
+  {
+    "instruction": "Translate 'tree goanna' into Warrungu.",
+    "input": "",
+    "output": "gogabara"
+  },
+  {
+    "instruction": "Translate 'l chip' into Warrungu.",
+    "input": "",
+    "output": "jinma"
+  },
+  {
+    "instruction": "Translate '(class unknown) little, brown lizard, found in large numbers' into Warrungu.",
+    "input": "",
+    "output": "giyabay"
+  },
+  {
+    "instruction": "Translate 'l (Girramay?) wash' into Warrungu.",
+    "input": "",
+    "output": "galbabaga"
+  },
+  {
+    "instruction": "Translate 'crocodile (does not'bite)' into Warrungu.",
+    "input": "",
+    "output": "gobaji"
+  },
+  {
+    "instruction": "Translate '1 be/become (like) ashes' into Warrungu.",
+    "input": "",
+    "output": "bombabi"
+  },
+  {
+    "instruction": "Translate 'come out, crack, burst, explode' into Warrungu.",
+    "input": "",
+    "output": "bandali"
+  },
+  {
+    "instruction": "Translate '(?) ( class unknown) make . . . bigger or stronger (with' into Warrungu.",
+    "input": "",
+    "output": "gagari"
+  },
+  {
+    "instruction": "Translate '(class unknown) comb [hair]' into Warrungu.",
+    "input": "",
+    "output": "yira"
+  },
+  {
+    "instruction": "Translate '(1) fart, wind, (2) little bream (fish, always emits bubbles from the' into Warrungu.",
+    "input": "",
+    "output": "boji"
+  },
+  {
+    "instruction": "Translate '(reciprocal) (class unknown) stab each other/one another' into Warrungu.",
+    "input": "",
+    "output": "babawa"
+  },
+  {
+    "instruction": "Translate '(reciprocal) (class unknown) tell each other/one another' into Warrungu.",
+    "input": "",
+    "output": "maygawa"
+  },
+  {
+    "instruction": "Translate 'a way of cooking (to cook meat etc. on hot stones covering' into Warrungu.",
+    "input": "",
+    "output": "gabomari"
+  },
+  {
+    "instruction": "Translate '(1) cattle, bullock, (2) beef (from the English word' into Warrungu.",
+    "input": "",
+    "output": "jomoboro"
+  },
+  {
+    "instruction": "What is the Warrungu word for 'Father (F)'?",
+    "input": "",
+    "output": "gaya"
+  },
+  {
+    "instruction": "Translate 'l blame' into Warrungu.",
+    "input": "",
+    "output": "ngonjanga"
+  },
+  {
+    "instruction": "Translate '1 have an erect penis' into Warrungu.",
+    "input": "",
+    "output": "wambaworobi"
+  },
+  {
+    "instruction": "Translate '(erg: waruga-ju) (Jirrbal?) fishing line, fishing net' into Warrungu.",
+    "input": "",
+    "output": "warogay"
+  },
+  {
+    "instruction": "Translate '(class unknown) dig (from the English word fi?fg ?)' into Warrungu.",
+    "input": "",
+    "output": "digo"
+  },
+  {
+    "instruction": "Translate '1 go round [a place]' into Warrungu.",
+    "input": "",
+    "output": "nyawo"
+  },
+  {
+    "instruction": "Translate '(class unknown) hurt' into Warrungu.",
+    "input": "",
+    "output": "marrga"
+  },
+  {
+    "instruction": "Translate '(class unknown) be stuck' into Warrungu.",
+    "input": "",
+    "output": "yiba"
+  },
+  {
+    "instruction": "Translate 'type of bird' into Warrungu.",
+    "input": "",
+    "output": "gogowony"
+  },
+  {
+    "instruction": "Translate '(reciprocal) (class unknown) grasp each other/one another' into Warrungu.",
+    "input": "",
+    "output": "mogawa"
+  },
+  {
+    "instruction": "Translate 'l be/become husband' into Warrungu.",
+    "input": "",
+    "output": "gornggalbi"
+  },
+  {
+    "instruction": "Translate '3 (Jalnguy?) run' into Warrungu.",
+    "input": "",
+    "output": "wanjali"
+  },
+  {
+    "instruction": "Translate 'l split' into Warrungu.",
+    "input": "",
+    "output": "yagibaranga"
+  },
+  {
+    "instruction": "Translate '1 (instrumental verb) eat... by means of...' into Warrungu.",
+    "input": "",
+    "output": "mojari"
+  },
+  {
+    "instruction": "Translate '(locative: mandagirr-a) the Warrgamay name of Mandagiri' into Warrungu.",
+    "input": "",
+    "output": "mandagirr"
+  },
+  {
+    "instruction": "Translate 'long (?) yam' into Warrungu.",
+    "input": "",
+    "output": "gonyangarra"
+  },
+  {
+    "instruction": "What is the Warrungu nominative singular pronoun for 'who'?",
+    "input": "",
+    "output": "wanyo"
+  },
+  {
+    "instruction": "Translate 'cattle, bullock (from the English word bullock ?)' into Warrungu.",
+    "input": "",
+    "output": "bolanggi"
+  },
+  {
+    "instruction": "Translate 'I grow up, be hard' into Warrungu.",
+    "input": "",
+    "output": "gagalbi"
+  },
+  {
+    "instruction": "Translate '(class unknown) descend, go/come down' into Warrungu.",
+    "input": "",
+    "output": "ragara"
+  },
+  {
+    "instruction": "Translate '(class unknown) wade ??' into Warrungu.",
+    "input": "",
+    "output": "jandaya"
+  },
+  {
+    "instruction": "Translate 'tail of a fish' into Warrungu.",
+    "input": "",
+    "output": "wirrngga"
+  },
+  {
+    "instruction": "Translate '3 be shy, ashamed, afraid' into Warrungu.",
+    "input": "",
+    "output": "ngorgali"
+  },
+  {
+    "instruction": "Translate '1 meaning unknown' into Warrungu.",
+    "input": "",
+    "output": "gawoybi"
+  },
+  {
+    "instruction": "Translate 'l (Jalnguy ?) drink (cf. bija)' into Warrungu.",
+    "input": "",
+    "output": "binyja"
+  },
+  {
+    "instruction": "Translate 'l gather' into Warrungu.",
+    "input": "",
+    "output": "rimbobi"
+  },
+  {
+    "instruction": "Translate '1 breathe upon [someone]' into Warrungu.",
+    "input": "",
+    "output": "borrmbo"
+  },
+  {
+    "instruction": "Translate 'l fart, pass wind' into Warrungu.",
+    "input": "",
+    "output": "bojibojibi"
+  },
+  {
+    "instruction": "Translate 'l whistle' into Warrungu.",
+    "input": "",
+    "output": "gobilgobilbi"
+  },
+  {
+    "instruction": "Translate '(class unknown) (Jalnguy?) give. Cf. guyba' into Warrungu.",
+    "input": "",
+    "output": "royba"
+  },
+  {
+    "instruction": "Translate '(class unJuiown) vomit' into Warrungu.",
+    "input": "",
+    "output": "jawa"
+  },
+  {
+    "instruction": "Translate '(class unknown) bark (of dog)' into Warrungu.",
+    "input": "",
+    "output": "worrnggo"
+  },
+  {
+    "instruction": "Translate 'l become hungry' into Warrungu.",
+    "input": "",
+    "output": "goyibi"
+  },
+  {
+    "instruction": "Can you give me an example of the suffix '–ngomay' in a Warrungu sentence?",
+    "input": "",
+    "output": "gombo-ngga boji-0 banda-n. ‘The fart came out from the anus.’"
+  },
+  {
+    "instruction": "Translate '(not Warrungu but Girramay ?) (1) carpet snake (one of the' into Warrungu.",
+    "input": "",
+    "output": "gorgorro"
+  },
+  {
+    "instruction": "Translate '(class unknown) (Jalnguy ?, used only in songs) look' into Warrungu.",
+    "input": "",
+    "output": "yarraymala"
+  },
+  {
+    "instruction": "Translate '1 be/become weak' into Warrungu.",
+    "input": "",
+    "output": "mindabi"
+  },
+  {
+    "instruction": "Translate 'l (instrumental verb) pull.. with ...' into Warrungu.",
+    "input": "",
+    "output": "yilmbori"
+  },
+  {
+    "instruction": "Translate '(reciprocal) (class unknown) wrestle' into Warrungu.",
+    "input": "",
+    "output": "baygowa"
+  },
+  {
+    "instruction": "Translate '1 sing out' into Warrungu.",
+    "input": "",
+    "output": "gawa"
+  },
+  {
+    "instruction": "Translate 'cicatrices-type tribal mark on a young man's belly, who is' into Warrungu.",
+    "input": "",
+    "output": "goymbirra"
+  },
+  {
+    "instruction": "Translate 'l go into a scrub' into Warrungu.",
+    "input": "",
+    "output": "jolgiwobi"
+  },
+  {
+    "instruction": "Translate 'l make [someone] sick' into Warrungu.",
+    "input": "",
+    "output": "morrannga"
+  },
+  {
+    "instruction": "Translate '(big) root' into Warrungu.",
+    "input": "",
+    "output": "jinarri"
+  },
+  {
+    "instruction": "Translate 'type of very small fish (live in fresh water)' into Warrungu.",
+    "input": "",
+    "output": "birano"
+  },
+  {
+    "instruction": "Translate '(reciprocal) (class unknown) argue (with the object gugu' into Warrungu.",
+    "input": "",
+    "output": "bayiwa"
+  },
+  {
+    "instruction": "Translate '1 be^ecome flat' into Warrungu.",
+    "input": "",
+    "output": "yabalabi"
+  },
+  {
+    "instruction": "Translate '1 make lustfiil' into Warrungu.",
+    "input": "",
+    "output": "rilganga"
+  },
+  {
+    "instruction": "Translate 'l push over, blow down, spill' into Warrungu.",
+    "input": "",
+    "output": "bilmba"
+  },
+  {
+    "instruction": "What is the Warrungu accusative singular pronoun for 'who'?",
+    "input": "",
+    "output": "wanyo-na / wanyo-nya"
+  },
+  {
+    "instruction": "Translate 'l bury' into Warrungu.",
+    "input": "",
+    "output": "jabongganga"
+  },
+  {
+    "instruction": "What is an example of Warrungu sentence structure for: Possessor genitive –ngo, body-part noun unmarked?",
+    "input": "",
+    "output": "jami-0 yarro-0 ngali-ngo"
+  },
+  {
+    "instruction": "Translate '1 as above' into Warrungu.",
+    "input": "",
+    "output": "yabarri"
+  },
+  {
+    "instruction": "Translate 'l (1) shake, (2) spread' into Warrungu.",
+    "input": "",
+    "output": "yiya"
+  },
+  {
+    "instruction": "Translate '(reciprocal) (class unknown) bite each other/one another' into Warrungu.",
+    "input": "",
+    "output": "bajawa"
+  },
+  {
+    "instruction": "Translate 'l finish' into Warrungu.",
+    "input": "",
+    "output": "garrgiringa"
+  },
+  {
+    "instruction": "Translate '1 lead, take [someone]' into Warrungu.",
+    "input": "",
+    "output": "gayngga"
+  },
+  {
+    "instruction": "Translate 'l talk' into Warrungu.",
+    "input": "",
+    "output": "gogobi"
+  },
+  {
+    "instruction": "Translate '(class I?) jump, being frightened' into Warrungu.",
+    "input": "",
+    "output": "ngarba"
+  },
+  {
+    "instruction": "Can you give me an example of the suffix '–0' in a Warrungu sentence?",
+    "input": "",
+    "output": "ngana-0 nyina-n ngona-n-da woma-ngga. ‘We sat in that shade.’"
+  },
+  {
+    "instruction": "Translate 'fish hawk (= grey, salt water eaglehawk)' into Warrungu.",
+    "input": "",
+    "output": "bigaranggal"
+  },
+  {
+    "instruction": "Translate '3 as above' into Warrungu.",
+    "input": "",
+    "output": "yimirryimirri"
+  },
+  {
+    "instruction": "Translate '(class unknown) (Jalnguy? used only in songs) see (in the' into Warrungu.",
+    "input": "",
+    "output": "yarrambila"
+  },
+  {
+    "instruction": "Translate 'l (?) tickle' into Warrungu.",
+    "input": "",
+    "output": "ngirrimba"
+  },
+  {
+    "instruction": "Translate 'l do ... until tomorrow' into Warrungu.",
+    "input": "",
+    "output": "garrbalabi"
+  },
+  {
+    "instruction": "Translate 'l finish up' into Warrungu.",
+    "input": "",
+    "output": "bajabajanga"
+  },
+  {
+    "instruction": "Translate 'l make short' into Warrungu.",
+    "input": "",
+    "output": "janojalanga"
+  },
+  {
+    "instruction": "Translate '1 peel the skin of [an animal]' into Warrungu.",
+    "input": "",
+    "output": "jolbirinynga"
+  },
+  {
+    "instruction": "Translate 'Jew fish' into Warrungu.",
+    "input": "",
+    "output": "golga"
+  },
+  {
+    "instruction": "Translate '1 feel well' into Warrungu.",
+    "input": "",
+    "output": "wamaynbiribi"
+  },
+  {
+    "instruction": "Translate 'l make wide/wider, open, split' into Warrungu.",
+    "input": "",
+    "output": "bijirrnga"
+  },
+  {
+    "instruction": "Translate '1 pluck (feather, etc.)' into Warrungu.",
+    "input": "",
+    "output": "borrbi"
+  },
+  {
+    "instruction": "What is an example of Warrungu sentence structure for: Verb-only verbless or zero-subject clauses?",
+    "input": "",
+    "output": "—"
+  },
+  {
+    "instruction": "Translate '3 be drowned' into Warrungu.",
+    "input": "",
+    "output": "jojorri"
+  },
+  {
+    "instruction": "Translate 'l dance' into Warrungu.",
+    "input": "",
+    "output": "nyambabi"
+  },
+  {
+    "instruction": "Translate '1 become sick' into Warrungu.",
+    "input": "",
+    "output": "morranbi"
+  },
+  {
+    "instruction": "Translate '3 (Jalnguy?) sleep' into Warrungu.",
+    "input": "",
+    "output": "wonajali"
+  },
+  {
+    "instruction": "Translate '1 make big waves' into Warrungu.",
+    "input": "",
+    "output": "jalamjalamnga"
+  },
+  {
+    "instruction": "Translate '(1) emu, (2)p1aee on Waterfall Creek' into Warrungu.",
+    "input": "",
+    "output": "gondolo"
+  },
+  {
+    "instruction": "What is an example of Warrungu sentence structure for: Sentence-initial wh-words and question markers?",
+    "input": "",
+    "output": "wayi ..."
+  },
+  {
+    "instruction": "Translate 'l be/become brave' into Warrungu.",
+    "input": "",
+    "output": "molgarrabi"
+  },
+  {
+    "instruction": "Translate '2 (1) stand (up), stay, wait, (2) be open (of mouth, etc.)' into Warrungu.",
+    "input": "",
+    "output": "jana"
+  },
+  {
+    "instruction": "Translate 'l call out 'Hi!'' into Warrungu.",
+    "input": "",
+    "output": "gowoybi"
+  },
+  {
+    "instruction": "Translate 'l tickle' into Warrungu.",
+    "input": "",
+    "output": "gidimba"
+  },
+  {
+    "instruction": "Translate '1 open eyes, wake up' into Warrungu.",
+    "input": "",
+    "output": "jilibi"
+  },
+  {
+    "instruction": "Translate '(class unknown) green frog (used to be eaten as medicine)' into Warrungu.",
+    "input": "",
+    "output": "banggoy"
+  },
+  {
+    "instruction": "Translate '? (class 3?) (other dialect/language?) tell' into Warrungu.",
+    "input": "",
+    "output": "marrali"
+  },
+  {
+    "instruction": "Translate 'l (comitative verb) sit down with/on/in [someone/something],' into Warrungu.",
+    "input": "",
+    "output": "nyinari"
+  },
+  {
+    "instruction": "Translate 'l be/bcome nothing, lose something' into Warrungu.",
+    "input": "",
+    "output": "nyawabi"
+  },
+  {
+    "instruction": "Translate '1 pull out, drag' into Warrungu.",
+    "input": "",
+    "output": "yilmbo"
+  },
+  {
+    "instruction": "Translate '1 make [someone] bleed' into Warrungu.",
+    "input": "",
+    "output": "ngarrgonnga"
+  },
+  {
+    "instruction": "Translate 'l suck' into Warrungu.",
+    "input": "",
+    "output": "yorroymbi"
+  },
+  {
+    "instruction": "What is the Warrungu nominative singular pronoun for '3rd'?",
+    "input": "",
+    "output": "nyola"
+  },
+  {
+    "instruction": "Translate '3 (reflexive) twist oneself, turn oneself, turn around' into Warrungu.",
+    "input": "",
+    "output": "barili"
+  },
+  {
+    "instruction": "Translate 'smell of fish' into Warrungu.",
+    "input": "",
+    "output": "boynyjal"
+  },
+  {
+    "instruction": "Translate '1 tell a lie, pretend' into Warrungu.",
+    "input": "",
+    "output": "magannga"
+  },
+  {
+    "instruction": "Translate 'l camp out' into Warrungu.",
+    "input": "",
+    "output": "wonajabi"
+  },
+  {
+    "instruction": "Translate '1 hear, listen to, understand [a language]' into Warrungu.",
+    "input": "",
+    "output": "ngawa"
+  },
+  {
+    "instruction": "Translate '1 show, guide' into Warrungu.",
+    "input": "",
+    "output": "ngonbaynga"
+  },
+  {
+    "instruction": "Translate 'l be/become dry (e. g. guts from a kangaroo) (Probably there is' into Warrungu.",
+    "input": "",
+    "output": "dalaybi"
+  },
+  {
+    "instruction": "Translate '(1) white tree ant, with a big nest, (2) a cattle station on Herbert' into Warrungu.",
+    "input": "",
+    "output": "gajo"
+  },
+  {
+    "instruction": "Translate 'l make' into Warrungu.",
+    "input": "",
+    "output": "miranga"
+  },
+  {
+    "instruction": "Translate 'l be in (the centre of) a mob' into Warrungu.",
+    "input": "",
+    "output": "worawobi"
+  },
+  {
+    "instruction": "Translate 'l (not Warrungu ?) set up [fence]' into Warrungu.",
+    "input": "",
+    "output": "golmborrmba"
+  },
+  {
+    "instruction": "Translate '(I ?) salt water oak' into Warrungu.",
+    "input": "",
+    "output": "gamay"
+  },
+  {
+    "instruction": "Translate '1 jump, get up, dive' into Warrungu.",
+    "input": "",
+    "output": "wara"
+  },
+  {
+    "instruction": "Translate '(reciprocal) (class unknown) kick each other/one another' into Warrungu.",
+    "input": "",
+    "output": "jilwawa"
+  },
+  {
+    "instruction": "Translate 'round yam' into Warrungu.",
+    "input": "",
+    "output": "ganyo"
+  },
+  {
+    "instruction": "Translate 'wart of a forest ti-tree. The wart contains water, which is used' into Warrungu.",
+    "input": "",
+    "output": "dombil"
+  },
+  {
+    "instruction": "Translate '(class unknown) fart at [someone]' into Warrungu.",
+    "input": "",
+    "output": "bongga"
+  },
+  {
+    "instruction": "Translate '1 try in vain' into Warrungu.",
+    "input": "",
+    "output": "ngarromba"
+  },
+  {
+    "instruction": "Translate '1 dip (a billy can in the water to get water)' into Warrungu.",
+    "input": "",
+    "output": "joga"
+  },
+  {
+    "instruction": "Translate '(1) emu, (2)p1aee on Waterfall Creek' into Warrungu.",
+    "input": "",
+    "output": "gondolo"
+  },
+  {
+    "instruction": "Translate '1 be/become stinking' into Warrungu.",
+    "input": "",
+    "output": "gaygalbarabi"
+  },
+  {
+    "instruction": "Translate '1 ask (a question or for something)' into Warrungu.",
+    "input": "",
+    "output": "banjo"
+  },
+  {
+    "instruction": "Translate 'tree kangaroo' into Warrungu.",
+    "input": "",
+    "output": "mabi"
+  },
+  {
+    "instruction": "Translate 'l be glad and smiling' into Warrungu.",
+    "input": "",
+    "output": "yimirryimirrbi"
+  },
+  {
+    "instruction": "Translate 'brown lizard (as big as blue tongue lizard)' into Warrungu.",
+    "input": "",
+    "output": "worrmba"
+  },
+  {
+    "instruction": "Translate 'l return' into Warrungu.",
+    "input": "",
+    "output": "golmibi"
+  },
+  {
+    "instruction": "Translate '(class unknown) float (on the water)' into Warrungu.",
+    "input": "",
+    "output": "walngga"
+  },
+  {
+    "instruction": "Translate 'l have sexual intercourse with [someone]' into Warrungu.",
+    "input": "",
+    "output": "jaynyja"
+  },
+  {
+    "instruction": "Translate 'many dogs ??' into Warrungu.",
+    "input": "",
+    "output": "gandoro"
+  },
+  {
+    "instruction": "Translate 'l blame' into Warrungu.",
+    "input": "",
+    "output": "ngonjaynga"
+  },
+  {
+    "instruction": "Translate 'l (plural verb) pick up (many things), (plural subject, 3,4 or 5' into Warrungu.",
+    "input": "",
+    "output": "ganyjiri"
+  },
+  {
+    "instruction": "Translate '(class unknown) be going to jump' into Warrungu.",
+    "input": "",
+    "output": "warayi"
+  },
+  {
+    "instruction": "Translate '(class unknown, I?) swing (of tree)' into Warrungu.",
+    "input": "",
+    "output": "dodi"
+  },
+  {
+    "instruction": "Translate '3 (?) wait for [woman]' into Warrungu.",
+    "input": "",
+    "output": "womirri"
+  },
+  {
+    "instruction": "Translate 'Turtle Jump (a place in Wairuna area). Its' into Warrungu.",
+    "input": "",
+    "output": "banggorro-jolban"
+  },
+  {
+    "instruction": "Translate 'I be/become bald' into Warrungu.",
+    "input": "",
+    "output": "gajalabi"
+  },
+  {
+    "instruction": "Translate 'l shut' into Warrungu.",
+    "input": "",
+    "output": "gomonnga"
+  },
+  {
+    "instruction": "Translate '1 make an undesirable noise inadvertently' into Warrungu.",
+    "input": "",
+    "output": "ngormbonba"
+  },
+  {
+    "instruction": "Translate 'belt made of kangaroo skin' into Warrungu.",
+    "input": "",
+    "output": "mayorro"
+  },
+  {
+    "instruction": "Translate '(class unknown) be good' into Warrungu.",
+    "input": "",
+    "output": "wamaynbiri"
+  },
+  {
+    "instruction": "Translate 'cattle station on Mt. Fox Range (Stony Hill ?)' into Warrungu.",
+    "input": "",
+    "output": "majibayan"
+  },
+  {
+    "instruction": "Translate '(class unknown) big carpet snake, bigger than gabul, as long as' into Warrungu.",
+    "input": "",
+    "output": "magoy"
+  },
+  {
+    "instruction": "Translate '(class unknown) be lame, be crippled, walk in such a way' into Warrungu.",
+    "input": "",
+    "output": "ralmba"
+  },
+  {
+    "instruction": "Translate 'crack ( of fingers)' into Warrungu.",
+    "input": "",
+    "output": "gadabi"
+  },
+  {
+    "instruction": "Translate '1 wake up (someone by touching him, in order to inform him of' into Warrungu.",
+    "input": "",
+    "output": "janyi"
+  },
+  {
+    "instruction": "Translate 'l (instmmental verb) send with' into Warrungu.",
+    "input": "",
+    "output": "birriri"
+  },
+  {
+    "instruction": "Translate 'l split in the middle part of the belly of [e. g. a' into Warrungu.",
+    "input": "",
+    "output": "gonyjabaranga"
+  },
+  {
+    "instruction": "Translate 'l (not Warrungu but Jirrbal, Girramay ?) pour, spill (e. g. tea),' into Warrungu.",
+    "input": "",
+    "output": "galga"
+  },
+  {
+    "instruction": "Translate 'l meaning uncertain' into Warrungu.",
+    "input": "",
+    "output": "jogolabi"
+  },
+  {
+    "instruction": "Translate '(reciprocal) (class unknown) eat each other/one another' into Warrungu.",
+    "input": "",
+    "output": "mojawa"
+  },
+  {
+    "instruction": "Translate '(class unknown) grow up (of child)' into Warrungu.",
+    "input": "",
+    "output": "woji"
+  },
+  {
+    "instruction": "Translate 'l [talk, etc.] one's own [language, etc.]' into Warrungu.",
+    "input": "",
+    "output": "warayibi"
+  },
+  {
+    "instruction": "Translate 'stone fish-trap' into Warrungu.",
+    "input": "",
+    "output": "mamo"
+  },
+  {
+    "instruction": "Translate '1 make run, take [women]' into Warrungu.",
+    "input": "",
+    "output": "wadalinga"
+  },
+  {
+    "instruction": "What is the Warrungu word for 'Child (Son/Daughter)'?",
+    "input": "",
+    "output": "galbin"
+  },
+  {
+    "instruction": "Translate '(1) fart, wind, (2) little bream (fish, always emits bubbles from the' into Warrungu.",
+    "input": "",
+    "output": "boji"
+  },
+  {
+    "instruction": "Translate 'dark brown rat (lives in the bush)' into Warrungu.",
+    "input": "",
+    "output": "borgo"
+  },
+  {
+    "instruction": "Translate 'water or baby carrier (bark billy can)' into Warrungu.",
+    "input": "",
+    "output": "woronbara"
+  },
+  {
+    "instruction": "Translate 'l (Jalnguy?) steal' into Warrungu.",
+    "input": "",
+    "output": "yolaynga"
+  },
+  {
+    "instruction": "Translate '(l)seed, (2)(Jalnguy?)anybone' into Warrungu.",
+    "input": "",
+    "output": "jolgil"
+  },
+  {
+    "instruction": "What is the Warrungu accusative singular pronoun for '2nd'?",
+    "input": "",
+    "output": "yina"
+  },
+  {
+    "instruction": "Translate '1 camp for another night' into Warrungu.",
+    "input": "",
+    "output": "wogagomanbi"
+  },
+  {
+    "instruction": "Translate '1 make [someone] a dead man, kill' into Warrungu.",
+    "input": "",
+    "output": "gowoynga"
+  },
+  {
+    "instruction": "Translate '1 leave (place, work, person), stop' into Warrungu.",
+    "input": "",
+    "output": "wanda"
+  },
+  {
+    "instruction": "Translate '1 Its literal translation is 'to be/come or tiim into a shooting' into Warrungu.",
+    "input": "",
+    "output": "jigobinabi"
+  },
+  {
+    "instruction": "Translate 'tail offish' into Warrungu.",
+    "input": "",
+    "output": "bin"
+  },
+  {
+    "instruction": "Translate '1 (Jalnguy ?) eat' into Warrungu.",
+    "input": "",
+    "output": "woyja"
+  },
+  {
+    "instruction": "Translate 'l put out (fire)' into Warrungu.",
+    "input": "",
+    "output": "wodanga"
+  },
+  {
+    "instruction": "Translate '(1) dragonfly, horsefly, horse stinger, (2) place between' into Warrungu.",
+    "input": "",
+    "output": "yirrinyjila"
+  },
+  {
+    "instruction": "Translate '3 be straight' into Warrungu.",
+    "input": "",
+    "output": "joygoli"
+  },
+  {
+    "instruction": "Translate '(vi. l andvi. 2) jump' into Warrungu.",
+    "input": "",
+    "output": "jolba"
+  },
+  {
+    "instruction": "Translate 'rifle bird (cf. yurrmbi) (A rifle bird sucks (yurrmbi)' into Warrungu.",
+    "input": "",
+    "output": "gimayorrmbilga"
+  },
+  {
+    "instruction": "Translate 'kangaroo rat' into Warrungu.",
+    "input": "",
+    "output": "barngan"
+  },
+  {
+    "instruction": "Translate 'get strong, be hard' into Warrungu.",
+    "input": "",
+    "output": "gagali"
+  },
+  {
+    "instruction": "Translate '1 do (e. g. dance) quickly' into Warrungu.",
+    "input": "",
+    "output": "milmorrobi"
+  },
+  {
+    "instruction": "Translate '(class unknown) get up' into Warrungu.",
+    "input": "",
+    "output": "wagara"
+  },
+  {
+    "instruction": "Translate '1 hold, get, grasp, catch' into Warrungu.",
+    "input": "",
+    "output": "moga"
+  },
+  {
+    "instruction": "Translate 'l send' into Warrungu.",
+    "input": "",
+    "output": "manja"
+  },
+  {
+    "instruction": "Translate '(not Warrungu but of coastal languages?) egg of scmb' into Warrungu.",
+    "input": "",
+    "output": "jarrogan"
+  },
+  {
+    "instruction": "Translate 'l hurt' into Warrungu.",
+    "input": "",
+    "output": "marrnyjanga"
+  },
+  {
+    "instruction": "Translate '1 [someone] become young again, [person A] make person B' into Warrungu.",
+    "input": "",
+    "output": "yambalbi"
+  },
+  {
+    "instruction": "Translate 'type of frog (jumps a lot)' into Warrungu.",
+    "input": "",
+    "output": "jodi"
+  },
+  {
+    "instruction": "Translate '3 (?) (song word) lie down' into Warrungu.",
+    "input": "",
+    "output": "bargoli"
+  },
+  {
+    "instruction": "Translate '1 bind up, twist (fingers), stir up' into Warrungu.",
+    "input": "",
+    "output": "bayi"
+  },
+  {
+    "instruction": "Translate '1 be/become stinking' into Warrungu.",
+    "input": "",
+    "output": "gaygalbaribi"
+  },
+  {
+    "instruction": "Translate 'l kiss' into Warrungu.",
+    "input": "",
+    "output": "jonda"
+  },
+  {
+    "instruction": "Translate 'l go closer. (This word is possibly an error.)' into Warrungu.",
+    "input": "",
+    "output": "jarrabirribi"
+  },
+  {
+    "instruction": "Translate '(class unknown) (Jalnguy ?) look' into Warrungu.",
+    "input": "",
+    "output": "yarrimbala"
+  },
+  {
+    "instruction": "Translate '1 (Jalnguy ?) leave ???' into Warrungu.",
+    "input": "",
+    "output": "wandari"
+  },
+  {
+    "instruction": "Translate '3 feel fine, good, well' into Warrungu.",
+    "input": "",
+    "output": "binyjili"
+  },
+  {
+    "instruction": "Translate 'any snake' into Warrungu.",
+    "input": "",
+    "output": "jambal"
+  },
+  {
+    "instruction": "Translate '1 do or be/come like this/that' into Warrungu.",
+    "input": "",
+    "output": "yamabi"
+  },
+  {
+    "instruction": "What is the Warrungu word for 'Sister-in-law'?",
+    "input": "",
+    "output": "mogayo"
+  },
+  {
+    "instruction": "Translate '1 send, look, etc. to east' into Warrungu.",
+    "input": "",
+    "output": "wanggarringa"
+  },
+  {
+    "instruction": "Translate 'l have a dumbil (of tree)' into Warrungu.",
+    "input": "",
+    "output": "dombilbi"
+  },
+  {
+    "instruction": "Translate '1 put out [fire]' into Warrungu.",
+    "input": "",
+    "output": "wolannga"
+  },
+  {
+    "instruction": "Translate 'fish hawk (= grey, salt water eaglehawk)' into Warrungu.",
+    "input": "",
+    "output": "bigaranggal"
+  },
+  {
+    "instruction": "Translate 'possum' into Warrungu.",
+    "input": "",
+    "output": "gajarra"
+  },
+  {
+    "instruction": "Translate 'l make .. like that, rumor, evaluate [someone]' into Warrungu.",
+    "input": "",
+    "output": "yawanga"
+  },
+  {
+    "instruction": "Translate '(reciprocal) fight with one/each other' into Warrungu.",
+    "input": "",
+    "output": "goniwa"
+  },
+  {
+    "instruction": "Translate '1 fear, be frightened' into Warrungu.",
+    "input": "",
+    "output": "wanba"
+  },
+  {
+    "instruction": "Translate 'l become father' into Warrungu.",
+    "input": "",
+    "output": "gayabi"
+  },
+  {
+    "instruction": "Translate '(class unknown) rest (on something), live (in a place)' into Warrungu.",
+    "input": "",
+    "output": "wandi"
+  },
+  {
+    "instruction": "Can you give me an example of the suffix '–ngga/–da/–ja' in a Warrungu sentence?",
+    "input": "",
+    "output": "ngaya [possum-ACC] bash-NF that-LINK-LOC jolany-ja. ‘I bashed the possum against that tree.’"
+  },
+  {
+    "instruction": "Translate '(erg: mugura-ju) lily root' into Warrungu.",
+    "input": "",
+    "output": "mogoray"
+  },
+  {
+    "instruction": "Translate '3 (reflexive) hide oneself' into Warrungu.",
+    "input": "",
+    "output": "garbili"
+  },
+  {
+    "instruction": "Translate '(l)mopoke, powerful owl, (2)p1aee in Abergowrie country' into Warrungu.",
+    "input": "",
+    "output": "boliboli"
+  },
+  {
+    "instruction": "Translate 'fishing net' into Warrungu.",
+    "input": "",
+    "output": "mogarro"
+  },
+  {
+    "instruction": "Translate 'l (?) tickle' into Warrungu.",
+    "input": "",
+    "output": "ngirrigimba"
+  },
+  {
+    "instruction": "Translate 'frilled lizard' into Warrungu.",
+    "input": "",
+    "output": "bininyja"
+  },
+  {
+    "instruction": "Translate '1 move swiftly' into Warrungu.",
+    "input": "",
+    "output": "miramirabi"
+  },
+  {
+    "instruction": "Translate '(class unknown) bite again and again' into Warrungu.",
+    "input": "",
+    "output": "bajaga"
+  },
+  {
+    "instruction": "Translate 'place near Abergowrie ?? [yelawatalu:] (Yellow Water ??)' into Warrungu.",
+    "input": "",
+    "output": "wangalgiri"
+  },
+  {
+    "instruction": "Translate 'type of very small fish (live in fresh water)' into Warrungu.",
+    "input": "",
+    "output": "birano"
+  },
+  {
+    "instruction": "Translate '(class unknown) (Jalnguy?) (not Warrungu?) let go, send' into Warrungu.",
+    "input": "",
+    "output": "giga"
+  },
+  {
+    "instruction": "Translate 'butcherbird' into Warrungu.",
+    "input": "",
+    "output": "jirrijindoro"
+  },
+  {
+    "instruction": "Translate '1 be good, feel well' into Warrungu.",
+    "input": "",
+    "output": "wamaybi"
+  },
+  {
+    "instruction": "Translate '1 do neatly, set up [fence]' into Warrungu.",
+    "input": "",
+    "output": "golmborrnga"
+  },
+  {
+    "instruction": "What is the Warrungu word for 'Spouse (Husband)'?",
+    "input": "",
+    "output": "wandi"
+  },
+  {
+    "instruction": "Translate 'l break, split or cut into halves' into Warrungu.",
+    "input": "",
+    "output": "ngambanga"
+  },
+  {
+    "instruction": "Translate 'king fisher (bird)' into Warrungu.",
+    "input": "",
+    "output": "moyon"
+  },
+  {
+    "instruction": "Translate 'upset (e.g. boat)' into Warrungu.",
+    "input": "",
+    "output": "ganamalinga"
+  },
+  {
+    "instruction": "Translate 'l do .. for the first time' into Warrungu.",
+    "input": "",
+    "output": "nyilagolnga"
+  },
+  {
+    "instruction": "Translate '(class unknown) swallow up' into Warrungu.",
+    "input": "",
+    "output": "bolga"
+  },
+  {
+    "instruction": "Translate '(1) crab, (2) Coldwater Station (near Abergowrie)' into Warrungu.",
+    "input": "",
+    "output": "mojogara"
+  },
+  {
+    "instruction": "Translate 'scale of fish' into Warrungu.",
+    "input": "",
+    "output": "dirin"
+  },
+  {
+    "instruction": "Translate 'l squeeze' into Warrungu.",
+    "input": "",
+    "output": "jolma"
+  },
+  {
+    "instruction": "Translate '(?)l (Jalnguy?) whistle' into Warrungu.",
+    "input": "",
+    "output": "warombi"
+  },
+  {
+    "instruction": "Translate 'hairy being (of human beings, dogs, etc.)' into Warrungu.",
+    "input": "",
+    "output": "jinggorrgal"
+  },
+  {
+    "instruction": "Translate '(class unknown) sneeze' into Warrungu.",
+    "input": "",
+    "output": "nyida"
+  },
+  {
+    "instruction": "Can you give me an example of the suffix '–wo/–go' in a Warrungu sentence?",
+    "input": "",
+    "output": "bolari-wo garri-wo ngaya miranga-n. ‘I made [it] for two days.’"
+  },
+  {
+    "instruction": "Translate '1 sing out' into Warrungu.",
+    "input": "",
+    "output": "garrgarobi"
+  },
+  {
+    "instruction": "Translate '1 scrape, scratch, shave, dig' into Warrungu.",
+    "input": "",
+    "output": "giba"
+  },
+  {
+    "instruction": "Translate 'l go closer' into Warrungu.",
+    "input": "",
+    "output": "birribi"
+  },
+  {
+    "instruction": "Translate 'vine poison, used to intoxicate fish when fishing' into Warrungu.",
+    "input": "",
+    "output": "ngayaba"
+  },
+  {
+    "instruction": "Translate '(class unknown) little bird like king fisher or jackass' into Warrungu.",
+    "input": "",
+    "output": "jijoloroy"
+  },
+  {
+    "instruction": "Translate 'l satiate [someone] (of food).' into Warrungu.",
+    "input": "",
+    "output": "boloyinga"
+  },
+  {
+    "instruction": "Can you give me an example of the suffix '–rro' in a Warrungu sentence?",
+    "input": "",
+    "output": "gano-ngga boji-0 banda-n. '...through the anus.'"
+  },
+  {
+    "instruction": "Translate 'sand frog (its belly swells up)' into Warrungu.",
+    "input": "",
+    "output": "dabal"
+  },
+  {
+    "instruction": "Translate '3 (Jalnguy? cf. wadali) run' into Warrungu.",
+    "input": "",
+    "output": "wandali"
+  },
+  {
+    "instruction": "Translate 'snot (fluid), cold (type of illness, not temperature)' into Warrungu.",
+    "input": "",
+    "output": "gilngara"
+  },
+  {
+    "instruction": "Translate 'l (1) put [part of something, not the whole] in the water (not' into Warrungu.",
+    "input": "",
+    "output": "yora"
+  },
+  {
+    "instruction": "Translate 'l go mad' into Warrungu.",
+    "input": "",
+    "output": "wamabi"
+  },
+  {
+    "instruction": "Translate 'l bend' into Warrungu.",
+    "input": "",
+    "output": "barrobarronga"
+  },
+  {
+    "instruction": "Translate 'l lose' into Warrungu.",
+    "input": "",
+    "output": "wandanga"
+  },
+  {
+    "instruction": "Translate '(class unknown) (all) are dead' into Warrungu.",
+    "input": "",
+    "output": "wolanda"
+  },
+  {
+    "instruction": "Translate '1 light up (of fire)' into Warrungu.",
+    "input": "",
+    "output": "nyarabi"
+  },
+  {
+    "instruction": "Translate '1 make flat or smooth' into Warrungu.",
+    "input": "",
+    "output": "balgaranga"
+  },
+  {
+    "instruction": "Translate 'l (1) do so, tell so, make .. like this/that, (2) name, call' into Warrungu.",
+    "input": "",
+    "output": "yamanga"
+  },
+  {
+    "instruction": "Translate 'grass bird (with a red tail)' into Warrungu.",
+    "input": "",
+    "output": "banjar"
+  },
+  {
+    "instruction": "Translate '1 light up, blaze up, bum without smoke' into Warrungu.",
+    "input": "",
+    "output": "nyaranga"
+  },
+  {
+    "instruction": "Translate '1 make hot, boil' into Warrungu.",
+    "input": "",
+    "output": "binggirnga"
+  },
+  {
+    "instruction": "Translate 'king fisher (bird)' into Warrungu.",
+    "input": "",
+    "output": "moyon"
+  },
+  {
+    "instruction": "Translate '(1) freshwater Jew fish, (2) catfish (not Jew fish)??' into Warrungu.",
+    "input": "",
+    "output": "jarban"
+  },
+  {
+    "instruction": "Translate '1 be/become shut' into Warrungu.",
+    "input": "",
+    "output": "gomonbi"
+  },
+  {
+    "instruction": "Translate '3 wait [for someone]' into Warrungu.",
+    "input": "",
+    "output": "ngajirri"
+  },
+  {
+    "instruction": "Translate '(1) sand goanna (class II. com: jagany-ji), (2) place on Herbert' into Warrungu.",
+    "input": "",
+    "output": "jagay"
+  },
+  {
+    "instruction": "Translate 'go past' into Warrungu.",
+    "input": "",
+    "output": "gajorri"
+  },
+  {
+    "instruction": "Translate 'l grow up. Also vt. ? grow up?' into Warrungu.",
+    "input": "",
+    "output": "joga"
+  },
+  {
+    "instruction": "Translate 'l (not Warrungu but Girramay, Jirrbal ?) be/become yellow' into Warrungu.",
+    "input": "",
+    "output": "gorbalbi"
+  },
+  {
+    "instruction": "What is the Warrungu word for 'Brother-in-law (husband’s brother)'?",
+    "input": "",
+    "output": "marga"
+  },
+  {
+    "instruction": "Translate '(1) white ant on the ground, (2) place on Herbert River about' into Warrungu.",
+    "input": "",
+    "output": "bornggan"
+  },
+  {
+    "instruction": "Translate '(reciprocal) (class unknown) have intercourse with each' into Warrungu.",
+    "input": "",
+    "output": "jaynyjawa"
+  },
+  {
+    "instruction": "Translate 'peewee (bird)' into Warrungu.",
+    "input": "",
+    "output": "bilbil"
+  },
+  {
+    "instruction": "Translate '1 (?) feel sorry for [someone]' into Warrungu.",
+    "input": "",
+    "output": "goynbonbi"
+  },
+  {
+    "instruction": "Translate 'brushtail rock wallaby; gorge wallaby, big and brown, live' into Warrungu.",
+    "input": "",
+    "output": "warojala"
+  },
+  {
+    "instruction": "Translate '(class unknown) hunt [a person] away' into Warrungu.",
+    "input": "",
+    "output": "jayga"
+  },
+  {
+    "instruction": "Translate '1 make [someone] knowing, teach, inform' into Warrungu.",
+    "input": "",
+    "output": "jilbaynga"
+  },
+  {
+    "instruction": "Translate '(reciprocal) (class unknown) leave one/each other, go' into Warrungu.",
+    "input": "",
+    "output": "bindawa"
+  },
+  {
+    "instruction": "Translate 'run away, escape' into Warrungu.",
+    "input": "",
+    "output": "yobarri"
+  },
+  {
+    "instruction": "Translate '(class unknown) pinch (with a nail)' into Warrungu.",
+    "input": "",
+    "output": "ningga"
+  },
+  {
+    "instruction": "Translate 'tiger snake' into Warrungu.",
+    "input": "",
+    "output": "yonggobala"
+  },
+  {
+    "instruction": "Translate '(not reciprocal) (class unknown) get up' into Warrungu.",
+    "input": "",
+    "output": "wagawa"
+  },
+  {
+    "instruction": "Translate 'l (?) tickle' into Warrungu.",
+    "input": "",
+    "output": "nyirriginba"
+  },
+  {
+    "instruction": "Translate 'scrub wallaby (red, of smaller type). Cf. bunggil' into Warrungu.",
+    "input": "",
+    "output": "morijila"
+  },
+  {
+    "instruction": "Translate '(not Warrungu ?) eagle hawk, carpet snake? (the symbol of a' into Warrungu.",
+    "input": "",
+    "output": "wojorro"
+  },
+  {
+    "instruction": "Translate '(class unknown) stand about (with a plural subject)' into Warrungu.",
+    "input": "",
+    "output": "janara"
+  },
+  {
+    "instruction": "Translate 'l be in love' into Warrungu.",
+    "input": "",
+    "output": "bolbabi"
+  },
+  {
+    "instruction": "Translate 'scratch' into Warrungu.",
+    "input": "",
+    "output": "gibalgibal"
+  },
+  {
+    "instruction": "Translate '(class unknown) native cat' into Warrungu.",
+    "input": "",
+    "output": "jigoy"
+  },
+  {
+    "instruction": "Translate 'butcher bird??, yam ??' into Warrungu.",
+    "input": "",
+    "output": "gonyaga"
+  },
+  {
+    "instruction": "Translate 'l make bajalbarri, confuse' into Warrungu.",
+    "input": "",
+    "output": "bajalbarringa"
+  },
+  {
+    "instruction": "Translate 'l (instrumental verb) have intercourse with ... in return for' into Warrungu.",
+    "input": "",
+    "output": "jaynyjari"
+  },
+  {
+    "instruction": "Translate '(class unknown) play about' into Warrungu.",
+    "input": "",
+    "output": "wada"
+  },
+  {
+    "instruction": "Translate '(1) freshwater Jew fish, (2) catfish (not Jew fish)??' into Warrungu.",
+    "input": "",
+    "output": "jarban"
+  },
+  {
+    "instruction": "Translate '1 become old, have grey hair' into Warrungu.",
+    "input": "",
+    "output": "birnggabi"
+  },
+  {
+    "instruction": "Translate '1 split; make board' into Warrungu.",
+    "input": "",
+    "output": "yaginga"
+  },
+  {
+    "instruction": "Translate 'l get wet' into Warrungu.",
+    "input": "",
+    "output": "marinyabi"
+  },
+  {
+    "instruction": "Translate 'bamboo (small), bamboo peg for the nose (for decoration)' into Warrungu.",
+    "input": "",
+    "output": "jorgo"
+  },
+  {
+    "instruction": "Translate 'l frighten' into Warrungu.",
+    "input": "",
+    "output": "wanbari"
+  },
+  {
+    "instruction": "Translate 'I make big' into Warrungu.",
+    "input": "",
+    "output": "gagabaranga"
+  },
+  {
+    "instruction": "Translate '(Jalnguy?) meat. Cf. jalgur' into Warrungu.",
+    "input": "",
+    "output": "nyalmor"
+  },
+  {
+    "instruction": "Translate 'honey' into Warrungu.",
+    "input": "",
+    "output": "goro"
+  },
+  {
+    "instruction": "Translate 'l (Jalnguy?) whistle' into Warrungu.",
+    "input": "",
+    "output": "gobilbi"
+  },
+  {
+    "instruction": "Translate '(class unknown) camp about' into Warrungu.",
+    "input": "",
+    "output": "wonaja"
+  },
+  {
+    "instruction": "Can you give me an example of the suffix '–n-ji/–ji' in a Warrungu sentence?",
+    "input": "",
+    "output": "ngani-wo yinda yagay-bi-n? ‘Why did you scream?’"
+  },
+  {
+    "instruction": "Translate 'string, hair string, string from bark, loya cane, fishing line' into Warrungu.",
+    "input": "",
+    "output": "gamban"
+  },
+  {
+    "instruction": "Translate 'l whistle' into Warrungu.",
+    "input": "",
+    "output": "gobilgobili"
+  },
+  {
+    "instruction": "Translate 'l twist' into Warrungu.",
+    "input": "",
+    "output": "baringa"
+  },
+  {
+    "instruction": "Translate 'l (Bin?) tell' into Warrungu.",
+    "input": "",
+    "output": "marra"
+  },
+  {
+    "instruction": "Translate '(class unknown) get up' into Warrungu.",
+    "input": "",
+    "output": "walmba"
+  },
+  {
+    "instruction": "Translate 'another one (e. g. man, woman, dog)' into Warrungu.",
+    "input": "",
+    "output": "gomanmara"
+  },
+  {
+    "instruction": "Translate 'l get wounded' into Warrungu.",
+    "input": "",
+    "output": "bonbarrabi"
+  },
+  {
+    "instruction": "What is the Warrungu word for 'Brother-in-law (vocative)'?",
+    "input": "",
+    "output": "jowaynggorro"
+  },
+  {
+    "instruction": "What is the Warrungu word for 'Daughter-in-law'?",
+    "input": "",
+    "output": "marga-yan"
+  },
+  {
+    "instruction": "Translate '(class imknown) break' into Warrungu.",
+    "input": "",
+    "output": "gonji"
+  },
+  {
+    "instruction": "Translate 'l finish, stuff up' into Warrungu.",
+    "input": "",
+    "output": "bajanga"
+  },
+  {
+    "instruction": "Translate 'l hit, strike (with long object, cf. jingga), kill; call [someone] ...' into Warrungu.",
+    "input": "",
+    "output": "balga"
+  },
+  {
+    "instruction": "Translate 'l talk in Jalnguy' into Warrungu.",
+    "input": "",
+    "output": "jalngonyjibi"
+  },
+  {
+    "instruction": "Translate '1 make small' into Warrungu.",
+    "input": "",
+    "output": "jangaragonga"
+  },
+  {
+    "instruction": "Translate 'l (comitative verb) sleep with [a woman], sleep in [a house],' into Warrungu.",
+    "input": "",
+    "output": "wonari"
+  },
+  {
+    "instruction": "Translate 'place on Herbert River, where wild yams grow (Its locative is' into Warrungu.",
+    "input": "",
+    "output": "mondor"
+  },
+  {
+    "instruction": "Translate 'horse (Alf Palmer said thatjayari, and not yarraman, is the proper' into Warrungu.",
+    "input": "",
+    "output": "jayari"
+  },
+  {
+    "instruction": "Translate '(class unknown) hit' into Warrungu.",
+    "input": "",
+    "output": "doda"
+  },
+  {
+    "instruction": "Translate '1 search, look for' into Warrungu.",
+    "input": "",
+    "output": "yangga"
+  },
+  {
+    "instruction": "Translate '(class unknown) touch' into Warrungu.",
+    "input": "",
+    "output": "jomba"
+  },
+  {
+    "instruction": "Translate '1 feel light' into Warrungu.",
+    "input": "",
+    "output": "boliyabi"
+  },
+  {
+    "instruction": "Translate '2 fall down, fall over, set (of the sun)' into Warrungu.",
+    "input": "",
+    "output": "galngga"
+  },
+  {
+    "instruction": "Can you give me an example of the suffix '–gali-ZERO' in a Warrungu sentence?",
+    "input": "",
+    "output": "mori-mori-0 nyawa goyba-gali-n. ‘That greedy man does not give.’"
+  },
+  {
+    "instruction": "Translate '3 call out' into Warrungu.",
+    "input": "",
+    "output": "gawali"
+  },
+  {
+    "instruction": "Translate '(class unknown) hide' into Warrungu.",
+    "input": "",
+    "output": "ragi"
+  },
+  {
+    "instruction": "Translate '1 make long/longer' into Warrungu.",
+    "input": "",
+    "output": "yangabaranga"
+  },
+  {
+    "instruction": "Translate '(Aboriginal) man, male (e. g. he-cat)' into Warrungu.",
+    "input": "",
+    "output": "bama"
+  },
+  {
+    "instruction": "Translate '1 make mad' into Warrungu.",
+    "input": "",
+    "output": "wamanga"
+  },
+  {
+    "instruction": "Translate 'l take out, unroll [a swag], postpone, pull down [house], stop' into Warrungu.",
+    "input": "",
+    "output": "woda"
+  },
+  {
+    "instruction": "Translate '1 make white' into Warrungu.",
+    "input": "",
+    "output": "bambaranga"
+  },
+  {
+    "instruction": "Translate '1 be fidghtened' into Warrungu.",
+    "input": "",
+    "output": "wanbalbi"
+  },
+  {
+    "instruction": "Translate '1 make a mouth piece, change [something] into a mouth' into Warrungu.",
+    "input": "",
+    "output": "mamonnga"
+  },
+  {
+    "instruction": "Translate '1 make bad, spoil, make sick' into Warrungu.",
+    "input": "",
+    "output": "walwanga"
+  },
+  {
+    "instruction": "Translate 'hunting man (minya 'game, meat')' into Warrungu.",
+    "input": "",
+    "output": "maraminya"
+  },
+  {
+    "instruction": "Translate '1 stick, be stuck' into Warrungu.",
+    "input": "",
+    "output": "malga"
+  },
+  {
+    "instruction": "Translate 'bark billy can (for carrying water, etc.)' into Warrungu.",
+    "input": "",
+    "output": "noba"
+  },
+  {
+    "instruction": "Can you give me an example of the suffix '–mali' in a Warrungu sentence?",
+    "input": "",
+    "output": "ngaya jolany-ja golma-mali jana-n. 'I stood by a tree, behind.'"
+  },
+  {
+    "instruction": "Translate '1 be^ecome lustful' into Warrungu.",
+    "input": "",
+    "output": "rilgabi"
+  },
+  {
+    "instruction": "Translate 'l bend' into Warrungu.",
+    "input": "",
+    "output": "barrobarrobi"
+  },
+  {
+    "instruction": "Translate '(class 3?) sleep' into Warrungu.",
+    "input": "",
+    "output": "bonali"
+  },
+  {
+    "instruction": "Translate '(Jalnguy?) dingo (wild dog)' into Warrungu.",
+    "input": "",
+    "output": "ngarrbo"
+  },
+  {
+    "instruction": "Translate 'ring tail possum' into Warrungu.",
+    "input": "",
+    "output": "borrogo"
+  },
+  {
+    "instruction": "Translate '1 send to the north, look towards the north' into Warrungu.",
+    "input": "",
+    "output": "gonggarringa"
+  },
+  {
+    "instruction": "Translate 'l become red (e. g. of eyes with anger)' into Warrungu.",
+    "input": "",
+    "output": "jalngarribi"
+  },
+  {
+    "instruction": "Translate '(class unknown) (borrowed from other dialect?) cry' into Warrungu.",
+    "input": "",
+    "output": "badi"
+  },
+  {
+    "instruction": "Translate '1 want, like' into Warrungu.",
+    "input": "",
+    "output": "walnggabi"
+  },
+  {
+    "instruction": "Translate 'ear forget \"forget, lose momory\"' into Warrungu.",
+    "input": "",
+    "output": "ngarrgara borrmobi"
+  },
+  {
+    "instruction": "Translate 'swamp wallaby' into Warrungu.",
+    "input": "",
+    "output": "barrgan"
+  },
+  {
+    "instruction": "Translate 'I crack' into Warrungu.",
+    "input": "",
+    "output": "gadanga"
+  },
+  {
+    "instruction": "Translate '1 (comitative verb) jump with [something]' into Warrungu.",
+    "input": "",
+    "output": "warari"
+  },
+  {
+    "instruction": "Translate '1 sneeze, snore' into Warrungu.",
+    "input": "",
+    "output": "jingorrayijingorrayibi"
+  },
+  {
+    "instruction": "Translate '(class unknown) get lost' into Warrungu.",
+    "input": "",
+    "output": "wama"
+  },
+  {
+    "instruction": "Translate '1 cover up, block up (e. g. windpipe)' into Warrungu.",
+    "input": "",
+    "output": "jamba"
+  },
+  {
+    "instruction": "Translate '(1) shin bone, (2) fish bone' into Warrungu.",
+    "input": "",
+    "output": "mogo"
+  },
+  {
+    "instruction": "Translate '1 do or be/become what' into Warrungu.",
+    "input": "",
+    "output": "nganibi"
+  },
+  {
+    "instruction": "Translate '1 jump about' into Warrungu.",
+    "input": "",
+    "output": "warawara"
+  },
+  {
+    "instruction": "Translate '1 tie up (e. g. tree)' into Warrungu.",
+    "input": "",
+    "output": "jagonga"
+  },
+  {
+    "instruction": "What is an example of Warrungu sentence structure for: Ergative–Verb–Absolutive?",
+    "input": "",
+    "output": "--"
+  },
+  {
+    "instruction": "Translate '1 never make a mistake' into Warrungu.",
+    "input": "",
+    "output": "mayiwanga"
+  },
+  {
+    "instruction": "Translate '(1) beef wood, (2) bark billy can, water carrier, baby carrier' into Warrungu.",
+    "input": "",
+    "output": "woron"
+  },
+  {
+    "instruction": "Translate 'l (instmmental verb) cook with (wood), in (fire), etc.' into Warrungu.",
+    "input": "",
+    "output": "wajori"
+  },
+  {
+    "instruction": "Translate '(Jalnguy?) food' into Warrungu.",
+    "input": "",
+    "output": "roja"
+  },
+  {
+    "instruction": "Translate '1 stop [some at a place or from a fight]' into Warrungu.",
+    "input": "",
+    "output": "jabi"
+  },
+  {
+    "instruction": "Translate '(class I?) (Jalnguy?) give. Cf. guyba throw' into Warrungu.",
+    "input": "",
+    "output": "woyba"
+  },
+  {
+    "instruction": "Translate '(class unknown) sweep, rake up' into Warrungu.",
+    "input": "",
+    "output": "gorra"
+  },
+  {
+    "instruction": "Translate 'l be/become bajalbarri' into Warrungu.",
+    "input": "",
+    "output": "bajalbarribi"
+  },
+  {
+    "instruction": "What is the Warrungu ergative singular pronoun for '1st'?",
+    "input": "",
+    "output": "ngaya"
+  },
+  {
+    "instruction": "Translate '1 make [someone] a wife' into Warrungu.",
+    "input": "",
+    "output": "birgonga"
+  },
+  {
+    "instruction": "Translate '3 work' into Warrungu.",
+    "input": "",
+    "output": "magoli"
+  },
+  {
+    "instruction": "Translate '1 make a ball' into Warrungu.",
+    "input": "",
+    "output": "balmbonga"
+  },
+  {
+    "instruction": "Translate 'tail offish' into Warrungu.",
+    "input": "",
+    "output": "bin"
+  },
+  {
+    "instruction": "Translate '1 become a wife' into Warrungu.",
+    "input": "",
+    "output": "birgobi"
+  },
+  {
+    "instruction": "Translate '1 turn over (e. g. boat)' into Warrungu.",
+    "input": "",
+    "output": "ngarramalinga"
+  },
+  {
+    "instruction": "Translate 'run' into Warrungu.",
+    "input": "",
+    "output": "wadali"
+  },
+  {
+    "instruction": "Translate '(class unknown. Class 1 ?) scratch (= giba)' into Warrungu.",
+    "input": "",
+    "output": "binba"
+  },
+  {
+    "instruction": "What is the Warrungu nominative singular pronoun for '1st'?",
+    "input": "",
+    "output": "ngaya"
+  },
+  {
+    "instruction": "Translate '1 put in the wrong place (two words?: warrajarga)' into Warrungu.",
+    "input": "",
+    "output": "warrajarga"
+  },
+  {
+    "instruction": "Translate '1 become long' into Warrungu.",
+    "input": "",
+    "output": "yangabarabi"
+  },
+  {
+    "instruction": "Translate 'l get married' into Warrungu.",
+    "input": "",
+    "output": "jolbonbi"
+  },
+  {
+    "instruction": "Translate 'l bury' into Warrungu.",
+    "input": "",
+    "output": "jabonga"
+  },
+  {
+    "instruction": "Translate '3 call out' into Warrungu.",
+    "input": "",
+    "output": "gawalgawali"
+  },
+  {
+    "instruction": "Can you give me an example of the suffix '–nggo/–go' in a Warrungu sentence?",
+    "input": "",
+    "output": "nganya nyola ngaygo warrngo-nggo banjo-n. ‘She, my wife, asked me.’"
+  },
+  {
+    "instruction": "Translate '1 steal [women, etc.]' into Warrungu.",
+    "input": "",
+    "output": "yobaynga"
+  },
+  {
+    "instruction": "Translate 'bull ant' into Warrungu.",
+    "input": "",
+    "output": "dombolan"
+  },
+  {
+    "instruction": "Translate 'l twist, turn' into Warrungu.",
+    "input": "",
+    "output": "bari"
+  },
+  {
+    "instruction": "Translate 'l make good, fix up, do in a good way, be nice to' into Warrungu.",
+    "input": "",
+    "output": "jarribaranga"
+  },
+  {
+    "instruction": "Translate '1 make a noise inadvertently' into Warrungu.",
+    "input": "",
+    "output": "ngorrmbonbi"
+  },
+  {
+    "instruction": "Translate 'anything (hot stone, meat, bark, etc. ) involved in the gabumari' into Warrungu.",
+    "input": "",
+    "output": "nigirri"
+  },
+  {
+    "instruction": "Translate 'l cut up' into Warrungu.",
+    "input": "",
+    "output": "gonbannga"
+  },
+  {
+    "instruction": "Translate '1 go to a light' into Warrungu.",
+    "input": "",
+    "output": "nyarawobi"
+  },
+  {
+    "instruction": "Translate '1 become charcoal' into Warrungu.",
+    "input": "",
+    "output": "jilinbi"
+  },
+  {
+    "instruction": "Translate '(1) fern, whose root is eaten, (2) place on Herbert River in scrub.' into Warrungu.",
+    "input": "",
+    "output": "dogal"
+  },
+  {
+    "instruction": "Translate 'place on Herbert River, where wild yams grow (Its locative is' into Warrungu.",
+    "input": "",
+    "output": "mondor"
+  },
+  {
+    "instruction": "Translate '1 be in a hurry' into Warrungu.",
+    "input": "",
+    "output": "yamorrbi"
+  },
+  {
+    "instruction": "Translate 'bee wax, honey comb' into Warrungu.",
+    "input": "",
+    "output": "majagal"
+  },
+  {
+    "instruction": "Translate '1 punch a hole through.., make a big hole in..' into Warrungu.",
+    "input": "",
+    "output": "bagalanga"
+  },
+  {
+    "instruction": "Translate 'l (instrumental verb) bite with' into Warrungu.",
+    "input": "",
+    "output": "bajari"
+  },
+  {
+    "instruction": "What is the Warrungu ergative singular pronoun for 'who'?",
+    "input": "",
+    "output": "wanyo-lo"
+  },
+  {
+    "instruction": "Translate '1 (instrumental verb) catch .. by means of...' into Warrungu.",
+    "input": "",
+    "output": "mogari"
+  },
+  {
+    "instruction": "Translate '1 make flat or smooth' into Warrungu.",
+    "input": "",
+    "output": "yabalanga"
+  },
+  {
+    "instruction": "Translate 'I go to or for water' into Warrungu.",
+    "input": "",
+    "output": "gamowobi"
+  },
+  {
+    "instruction": "Translate 'l cover up' into Warrungu.",
+    "input": "",
+    "output": "gamba"
+  },
+  {
+    "instruction": "Translate 'tail of a fish' into Warrungu.",
+    "input": "",
+    "output": "wirrngga"
+  },
+  {
+    "instruction": "Translate 'l be kind [to someone], be not cruel [to someone]' into Warrungu.",
+    "input": "",
+    "output": "ngalnyibi"
+  },
+  {
+    "instruction": "Translate '(generally reciprocal meaning) (class unknown) talk (with' into Warrungu.",
+    "input": "",
+    "output": "birrawa"
+  },
+  {
+    "instruction": "Translate 'l become red hot, grey-looking (ofcooking-stone, etc.)' into Warrungu.",
+    "input": "",
+    "output": "bolbobi"
+  },
+  {
+    "instruction": "Translate '1 make [someone] brave' into Warrungu.",
+    "input": "",
+    "output": "molgarranga"
+  },
+  {
+    "instruction": "Translate 'scorpion (yigarra 'freshwater lobster')' into Warrungu.",
+    "input": "",
+    "output": "marayigarra"
+  },
+  {
+    "instruction": "Translate 'butterfly' into Warrungu.",
+    "input": "",
+    "output": "gomborrgomborr"
+  },
+  {
+    "instruction": "Translate '3 feel fairly mad (not feeling as bad as buni-garra-)' into Warrungu.",
+    "input": "",
+    "output": "bonilbonili"
+  },
+  {
+    "instruction": "Translate 'l spread' into Warrungu.",
+    "input": "",
+    "output": "yawaranga"
+  },
+  {
+    "instruction": "Translate 'shag (type of big, black, water bird)' into Warrungu.",
+    "input": "",
+    "output": "ganambirra"
+  },
+  {
+    "instruction": "What is the Warrungu word for 'Paternal Grandfather (FF)'?",
+    "input": "",
+    "output": "bolo"
+  },
+  {
+    "instruction": "Translate 'l (Jalnguy?) look at' into Warrungu.",
+    "input": "",
+    "output": "jolnyjo"
+  },
+  {
+    "instruction": "Translate 'l cannot get..., cannot find' into Warrungu.",
+    "input": "",
+    "output": "nyawanga"
+  },
+  {
+    "instruction": "Translate '(reciprocal) (class unknown) give to one another (or each' into Warrungu.",
+    "input": "",
+    "output": "goybawa"
+  },
+  {
+    "instruction": "Translate '1 poke [a woman]' into Warrungu.",
+    "input": "",
+    "output": "bibibaba"
+  },
+  {
+    "instruction": "What is the Warrungu word for 'Spouse (Wife)'?",
+    "input": "",
+    "output": "birgo"
+  },
+  {
+    "instruction": "Translate 'l make white' into Warrungu.",
+    "input": "",
+    "output": "jorbanga"
+  },
+  {
+    "instruction": "Translate '(not Warrungu ?) inside ofyamba (camp, house)' into Warrungu.",
+    "input": "",
+    "output": "ganya"
+  },
+  {
+    "instruction": "Translate 'type of fish' into Warrungu.",
+    "input": "",
+    "output": "woroyan"
+  },
+  {
+    "instruction": "Translate 'l swallow' into Warrungu.",
+    "input": "",
+    "output": "mamba"
+  },
+  {
+    "instruction": "Translate 'l do ... together' into Warrungu.",
+    "input": "",
+    "output": "garobi"
+  },
+  {
+    "instruction": "Translate 'fresh water silver bream' into Warrungu.",
+    "input": "",
+    "output": "wayli"
+  },
+  {
+    "instruction": "Translate 'l tell' into Warrungu.",
+    "input": "",
+    "output": "mayga"
+  },
+  {
+    "instruction": "Translate '1 be/become or do/behave like a white man' into Warrungu.",
+    "input": "",
+    "output": "waybalabi"
+  },
+  {
+    "instruction": "Translate 'l bend' into Warrungu.",
+    "input": "",
+    "output": "barronga"
+  },
+  {
+    "instruction": "Translate '1 go up' into Warrungu.",
+    "input": "",
+    "output": "ngarrabi"
+  },
+  {
+    "instruction": "Translate '1 watch, mind, keep an eye on [someone]' into Warrungu.",
+    "input": "",
+    "output": "nyaganyaga"
+  },
+  {
+    "instruction": "Translate '(class unknown) break, make crack' into Warrungu.",
+    "input": "",
+    "output": "bana"
+  },
+  {
+    "instruction": "Translate '(class unknown) jump' into Warrungu.",
+    "input": "",
+    "output": "waraya"
+  },
+  {
+    "instruction": "Translate 'tail (of fish only)' into Warrungu.",
+    "input": "",
+    "output": "jirri"
+  },
+  {
+    "instruction": "Translate 'little water snake' into Warrungu.",
+    "input": "",
+    "output": "ngoja"
+  },
+  {
+    "instruction": "Translate '(class unknown, class 1 ?) show the way by breaking branches' into Warrungu.",
+    "input": "",
+    "output": "banbi"
+  },
+  {
+    "instruction": "Translate '3 do not care' into Warrungu.",
+    "input": "",
+    "output": "bojilbojili"
+  },
+  {
+    "instruction": "Translate '(reciprocal) (class unknown) tell one each other/one' into Warrungu.",
+    "input": "",
+    "output": "ngonbawa"
+  },
+  {
+    "instruction": "Translate '(class unknown) move' into Warrungu.",
+    "input": "",
+    "output": "ngowa"
+  },
+  {
+    "instruction": "Translate 'l have flowers (of tree)' into Warrungu.",
+    "input": "",
+    "output": "manggayibi"
+  },
+  {
+    "instruction": "Translate 'frog in scrub over the range (edible)' into Warrungu.",
+    "input": "",
+    "output": "wogol"
+  },
+  {
+    "instruction": "Translate '1 dip (a billy can in the water to get water)' into Warrungu.",
+    "input": "",
+    "output": "joga"
+  },
+  {
+    "instruction": "Translate '(class unknown) laugh' into Warrungu.",
+    "input": "",
+    "output": "yaji"
+  },
+  {
+    "instruction": "Translate '3 (reflexive) turn, turn oneself' into Warrungu.",
+    "input": "",
+    "output": "bayili"
+  },
+  {
+    "instruction": "Translate 'l it becomes morning (with a human subject)' into Warrungu.",
+    "input": "",
+    "output": "jidalgobi"
+  },
+  {
+    "instruction": "Translate '1 be^ecome froth' into Warrungu.",
+    "input": "",
+    "output": "jarabi"
+  },
+  {
+    "instruction": "Translate 'water rat' into Warrungu.",
+    "input": "",
+    "output": "gorrgija"
+  },
+  {
+    "instruction": "Translate 'old male kangaroo' into Warrungu.",
+    "input": "",
+    "output": "yawoymbarri"
+  },
+  {
+    "instruction": "Translate 'l dry' into Warrungu.",
+    "input": "",
+    "output": "gadalanga"
+  },
+  {
+    "instruction": "Translate '1 (class unknown) come out' into Warrungu.",
+    "input": "",
+    "output": "wodara"
+  },
+  {
+    "instruction": "Translate 'l be/become alive, come to life (again)' into Warrungu.",
+    "input": "",
+    "output": "jorabi"
+  },
+  {
+    "instruction": "Translate 'spider web' into Warrungu.",
+    "input": "",
+    "output": "jamara"
+  },
+  {
+    "instruction": "Translate '1 be stinking, emit smell (e.g. wood which is burning without' into Warrungu.",
+    "input": "",
+    "output": "gaygabi"
+  },
+  {
+    "instruction": "Translate '1 dig, poke, wash, prick, stick in' into Warrungu.",
+    "input": "",
+    "output": "baga"
+  },
+  {
+    "instruction": "Translate '(Jalnguy?) carpet snake' into Warrungu.",
+    "input": "",
+    "output": "mindorro"
+  },
+  {
+    "instruction": "Translate 'l talkinJalnguy' into Warrungu.",
+    "input": "",
+    "output": "jalngoybi"
+  },
+  {
+    "instruction": "Translate 'l ffighten' into Warrungu.",
+    "input": "",
+    "output": "wanbalnga"
+  },
+  {
+    "instruction": "Translate '(reciprocal) (class unknown) kiss each other/one another' into Warrungu.",
+    "input": "",
+    "output": "jondawa"
+  },
+  {
+    "instruction": "Translate 'l sing' into Warrungu.",
+    "input": "",
+    "output": "baya"
+  },
+  {
+    "instruction": "Translate '(class unknown) singe' into Warrungu.",
+    "input": "",
+    "output": "ngalma"
+  },
+  {
+    "instruction": "Translate 'l go bad' into Warrungu.",
+    "input": "",
+    "output": "walwajarribi"
+  },
+  {
+    "instruction": "Translate '1 make [something into] a barrawu' into Warrungu.",
+    "input": "",
+    "output": "barrawonga"
+  },
+  {
+    "instruction": "Translate 'name of a waterfall and gorge in Niagara (?) district' into Warrungu.",
+    "input": "",
+    "output": "bawir"
+  },
+  {
+    "instruction": "Translate '(not Warmngu?) crayfish' into Warrungu.",
+    "input": "",
+    "output": "jolarr"
+  },
+  {
+    "instruction": "What is an example of Warrungu sentence structure for: Three-place ditransitive giving pattern?",
+    "input": "",
+    "output": "ngaya yino-n-go goyba-lgo yarro-0"
+  },
+  {
+    "instruction": "Translate 'l be/become flat' into Warrungu.",
+    "input": "",
+    "output": "maljarabi"
+  },
+  {
+    "instruction": "Translate '(reciprocal) (class unknown) look at each other/one another' into Warrungu.",
+    "input": "",
+    "output": "jolnyjowa"
+  },
+  {
+    "instruction": "What is the Warrungu word for 'Son-in-law'?",
+    "input": "",
+    "output": "woribo"
+  },
+  {
+    "instruction": "Translate 'l (instrumental verb) drink with, drink from' into Warrungu.",
+    "input": "",
+    "output": "bijari"
+  },
+  {
+    "instruction": "Translate '1 swell up' into Warrungu.",
+    "input": "",
+    "output": "bogara"
+  },
+  {
+    "instruction": "Translate '3 be sony' into Warrungu.",
+    "input": "",
+    "output": "jagoljagoli"
+  },
+  {
+    "instruction": "Translate 'l leave .. alone' into Warrungu.",
+    "input": "",
+    "output": "wandara"
+  },
+  {
+    "instruction": "Translate 'l get hot' into Warrungu.",
+    "input": "",
+    "output": "binggirbi"
+  },
+  {
+    "instruction": "Translate '1 be quiet, do quietly' into Warrungu.",
+    "input": "",
+    "output": "yorayyoraybi"
+  },
+  {
+    "instruction": "Translate '(class unknown) carry' into Warrungu.",
+    "input": "",
+    "output": "ganyjiyi"
+  },
+  {
+    "instruction": "Translate '(class unknown) camp out, sleep all the time' into Warrungu.",
+    "input": "",
+    "output": "wonajajarri"
+  },
+  {
+    "instruction": "Can you give me an example of the suffix '–ngo' in a Warrungu sentence?",
+    "input": "",
+    "output": "ngaygo yamba-ngga wanda-lgo ngoni-n-da yinda. ‘I will leave you in my camp.’"
+  },
+  {
+    "instruction": "Translate '(class unknown) put on or wear [clothes, shoes, hats, etc.]' into Warrungu.",
+    "input": "",
+    "output": "yimba"
+  },
+  {
+    "instruction": "Translate 'l scream' into Warrungu.",
+    "input": "",
+    "output": "yagaybi"
+  },
+  {
+    "instruction": "Translate 'a way of fishing, in which many people roll branches' into Warrungu.",
+    "input": "",
+    "output": "gobo-molgarra"
+  },
+  {
+    "instruction": "Translate 'l (instrumental verb) sing with ..., sing to ...' into Warrungu.",
+    "input": "",
+    "output": "bayari"
+  },
+  {
+    "instruction": "Translate '(class unknown) bite everything, bite about' into Warrungu.",
+    "input": "",
+    "output": "bajanda"
+  },
+  {
+    "instruction": "Translate 'egg, coconut' into Warrungu.",
+    "input": "",
+    "output": "bambo"
+  },
+  {
+    "instruction": "Translate 'fin of fish' into Warrungu.",
+    "input": "",
+    "output": "yindil"
+  },
+  {
+    "instruction": "Translate '(class unknown), vi (class unknown) (both class I?) blow (of' into Warrungu.",
+    "input": "",
+    "output": "gimbi"
+  },
+  {
+    "instruction": "Translate 'l knock over' into Warrungu.",
+    "input": "",
+    "output": "goybaramba"
+  },
+  {
+    "instruction": "Translate '1 get angry or wild' into Warrungu.",
+    "input": "",
+    "output": "golibi"
+  },
+  {
+    "instruction": "Translate 'l talk' into Warrungu.",
+    "input": "",
+    "output": "birra"
+  },
+  {
+    "instruction": "Translate 'type of lizard, about half foot long, bigger than buynyjul' into Warrungu.",
+    "input": "",
+    "output": "binyjirin"
+  },
+  {
+    "instruction": "Translate 'turtle (freshwater tiirtle)' into Warrungu.",
+    "input": "",
+    "output": "banggorro"
+  },
+  {
+    "instruction": "Translate '(class unknown) suck' into Warrungu.",
+    "input": "",
+    "output": "joyja"
+  },
+  {
+    "instruction": "Translate '1 get up, rise, climb' into Warrungu.",
+    "input": "",
+    "output": "waga"
+  },
+  {
+    "instruction": "Translate 'l (Jalnguy?) come out (= banda), vt. 1 splash' into Warrungu.",
+    "input": "",
+    "output": "balnyjal"
+  },
+  {
+    "instruction": "Translate '1 (instrumental verb) kiss ... by means of...' into Warrungu.",
+    "input": "",
+    "output": "jondari"
+  },
+  {
+    "instruction": "What is an example of Warrungu sentence structure for: Subject–Verb order (unmarked default)?",
+    "input": "",
+    "output": "ngana-0 nyina-n ngona-n-da woma-ngga"
+  },
+  {
+    "instruction": "Translate 'spider' into Warrungu.",
+    "input": "",
+    "output": "nyibo"
+  },
+  {
+    "instruction": "What is the Warrungu accusative singular pronoun for '1st'?",
+    "input": "",
+    "output": "nganya"
+  },
+  {
+    "instruction": "Translate 'l dream' into Warrungu.",
+    "input": "",
+    "output": "yibirrayibirrabi"
+  },
+  {
+    "instruction": "Translate 'l it becomes morning (with a human subject)' into Warrungu.",
+    "input": "",
+    "output": "jidadabi"
+  },
+  {
+    "instruction": "Translate 'little water snake' into Warrungu.",
+    "input": "",
+    "output": "ngoja"
+  },
+  {
+    "instruction": "Translate '1 do not know, forget' into Warrungu.",
+    "input": "",
+    "output": "nyandobi"
+  },
+  {
+    "instruction": "Translate '1 (other dialect/language ?) shoot' into Warrungu.",
+    "input": "",
+    "output": "bawo"
+  },
+  {
+    "instruction": "Translate 'type of lizard' into Warrungu.",
+    "input": "",
+    "output": "borrbanba"
+  },
+  {
+    "instruction": "What is the Warrungu ergative singular pronoun for '3rd'?",
+    "input": "",
+    "output": "nyola"
+  },
+  {
+    "instruction": "Translate 'wild peanut' into Warrungu.",
+    "input": "",
+    "output": "wilnyarri"
+  },
+  {
+    "instruction": "Translate 'yam with prickly leaves' into Warrungu.",
+    "input": "",
+    "output": "jalaba"
+  },
+  {
+    "instruction": "Translate '1 make . .. want to do ...' into Warrungu.",
+    "input": "",
+    "output": "walnggayinga"
+  },
+  {
+    "instruction": "Translate 'l cut' into Warrungu.",
+    "input": "",
+    "output": "gonba"
+  },
+  {
+    "instruction": "Translate '1 be/become small' into Warrungu.",
+    "input": "",
+    "output": "jangaragobi"
+  },
+  {
+    "instruction": "Translate 'whip tail kangaroo' into Warrungu.",
+    "input": "",
+    "output": "jabali"
+  },
+  {
+    "instruction": "Translate 'l bury' into Warrungu.",
+    "input": "",
+    "output": "jolbamba"
+  },
+  {
+    "instruction": "Translate '1 do how' into Warrungu.",
+    "input": "",
+    "output": "wanyjarringa"
+  },
+  {
+    "instruction": "Translate 'l see, look at, watch' into Warrungu.",
+    "input": "",
+    "output": "nyaga"
+  },
+  {
+    "instruction": "Translate '(class unknown) dip a tool and get [water]' into Warrungu.",
+    "input": "",
+    "output": "wayi"
+  },
+  {
+    "instruction": "Translate '1 move slowly' into Warrungu.",
+    "input": "",
+    "output": "wonaybi"
+  },
+  {
+    "instruction": "Translate 'a type of big bird' into Warrungu.",
+    "input": "",
+    "output": "bajinjila"
+  },
+  {
+    "instruction": "Translate 'l blacken, paint black' into Warrungu.",
+    "input": "",
+    "output": "ngonyolbaranga"
+  },
+  {
+    "instruction": "Translate '1 make good, do in a good way' into Warrungu.",
+    "input": "",
+    "output": "wamaynbiringa"
+  },
+  {
+    "instruction": "Translate 'l cook, bum, make smoke' into Warrungu.",
+    "input": "",
+    "output": "wajo"
+  },
+  {
+    "instruction": "Translate 'l make smoke or make smoky' into Warrungu.",
+    "input": "",
+    "output": "joganga"
+  },
+  {
+    "instruction": "Translate 'l be sorry for [someone]' into Warrungu.",
+    "input": "",
+    "output": "jagolnga"
+  },
+  {
+    "instruction": "Translate 'l grow up' into Warrungu.",
+    "input": "",
+    "output": "jogalbi"
+  },
+  {
+    "instruction": "Translate 'l feel better. (This word is possibly an error. Cf. jarribara.)' into Warrungu.",
+    "input": "",
+    "output": "jarrabiribi"
+  },
+  {
+    "instruction": "Translate 'l bite, chew; say (object gugu 'speech')' into Warrungu.",
+    "input": "",
+    "output": "baja"
+  },
+  {
+    "instruction": "Translate '1 hide, cover up' into Warrungu.",
+    "input": "",
+    "output": "garbi"
+  },
+  {
+    "instruction": "Can you give me an example of the suffix '–n-(interfix)' in a Warrungu sentence?",
+    "input": "",
+    "output": "ngali-n-go '1 DU-LINK-DAT'"
+  },
+  {
+    "instruction": "Translate '(?) (class unknown) crack (e.g. fingers) (adv ??)' into Warrungu.",
+    "input": "",
+    "output": "gada"
+  },
+  {
+    "instruction": "Translate '(class unknown. Class 2 ?) point, show' into Warrungu.",
+    "input": "",
+    "output": "ngonba"
+  },
+  {
+    "instruction": "Translate '1 have a cramp or numbness' into Warrungu.",
+    "input": "",
+    "output": "jilmaljilmalbi"
+  },
+  {
+    "instruction": "Translate 'night owl, night hawk (kills possums)' into Warrungu.",
+    "input": "",
+    "output": "birraga"
+  },
+  {
+    "instruction": "Translate 'l break' into Warrungu.",
+    "input": "",
+    "output": "ngambabi"
+  },
+  {
+    "instruction": "Translate 'sand goanna' into Warrungu.",
+    "input": "",
+    "output": "jagany"
+  },
+  {
+    "instruction": "Translate 'place along Waterfall Creek' into Warrungu.",
+    "input": "",
+    "output": "wonobo"
+  },
+  {
+    "instruction": "Translate 'jumping ant, big' into Warrungu.",
+    "input": "",
+    "output": "wogoboro"
+  },
+  {
+    "instruction": "Translate 'l paint' into Warrungu.",
+    "input": "",
+    "output": "bangga"
+  },
+  {
+    "instruction": "Translate '1 (1) go which way, (2) do how' into Warrungu.",
+    "input": "",
+    "output": "wanyjarribi"
+  },
+  {
+    "instruction": "Translate 'green ant' into Warrungu.",
+    "input": "",
+    "output": "ngorbon"
+  },
+  {
+    "instruction": "Translate '(1) kidney, (2)p1aee on Waterfall Creek near Coldwater' into Warrungu.",
+    "input": "",
+    "output": "gonyji"
+  },
+  {
+    "instruction": "Translate 'fighting stick, yam stick' into Warrungu.",
+    "input": "",
+    "output": "nyalmo"
+  },
+  {
+    "instruction": "Translate 'possum (name of a skin group ?)' into Warrungu.",
+    "input": "",
+    "output": "bambari"
+  },
+  {
+    "instruction": "Translate 'type of long fish' into Warrungu.",
+    "input": "",
+    "output": "gondamo"
+  },
+  {
+    "instruction": "Translate 'l [wait, etc. ] until 'very soon', for a while' into Warrungu.",
+    "input": "",
+    "output": "nyilawobi"
+  },
+  {
+    "instruction": "Translate 'l make wide/wider, open, split' into Warrungu.",
+    "input": "",
+    "output": "bijilnga"
+  },
+  {
+    "instruction": "Translate '1 (not Warrungu ?) tell, say' into Warrungu.",
+    "input": "",
+    "output": "yama"
+  },
+  {
+    "instruction": "Translate '(class imknown) dodge' into Warrungu.",
+    "input": "",
+    "output": "jorba"
+  },
+  {
+    "instruction": "Translate 'blood inside guts, blood that oozes from meat when it is cooked' into Warrungu.",
+    "input": "",
+    "output": "bowa"
+  },
+  {
+    "instruction": "Translate '(with the comitative suffix -yi) satisfied with food, having' into Warrungu.",
+    "input": "",
+    "output": "manyjayi"
+  },
+  {
+    "instruction": "Translate '1 (not Warrungu but Jirrbal?) stand up [e. g. fence]' into Warrungu.",
+    "input": "",
+    "output": "jarra"
+  },
+  {
+    "instruction": "Translate 'l (instmmental verb) tellby means of...' into Warrungu.",
+    "input": "",
+    "output": "maygari"
+  },
+  {
+    "instruction": "Translate 'l be^ecomehot' into Warrungu.",
+    "input": "",
+    "output": "jawoybi"
+  },
+  {
+    "instruction": "Translate '1 (with the non-future suffix -1) or adj? (be) quiet' into Warrungu.",
+    "input": "",
+    "output": "nyinyji-1"
+  },
+  {
+    "instruction": "Translate 'bower bird' into Warrungu.",
+    "input": "",
+    "output": "jorirrbarra"
+  },
+  {
+    "instruction": "Translate 'Tommy round head (type of a lizard)' into Warrungu.",
+    "input": "",
+    "output": "jijan"
+  },
+  {
+    "instruction": "Translate 'gravy (which comes out from meat when it is cooked)' into Warrungu.",
+    "input": "",
+    "output": "gimirri"
+  },
+  {
+    "instruction": "Translate 'meat' into Warrungu.",
+    "input": "",
+    "output": "minya"
+  },
+  {
+    "instruction": "Translate '3 grow up' into Warrungu.",
+    "input": "",
+    "output": "jogali"
+  },
+  {
+    "instruction": "What is an example of Warrungu sentence structure for: goyba-L 'give/throw' takes ERG–ACC–DAT?",
+    "input": "",
+    "output": "ngaya yino-n-go goyba-lgo yarro-0"
+  },
+  {
+    "instruction": "What is the Warrungu accusative singular pronoun for '3rd'?",
+    "input": "",
+    "output": "nyonya"
+  },
+  {
+    "instruction": "Translate '1 be/become (like) a ghost, die' into Warrungu.",
+    "input": "",
+    "output": "gowoybi"
+  },
+  {
+    "instruction": "Translate '(class unknown) bend down' into Warrungu.",
+    "input": "",
+    "output": "yarra"
+  },
+  {
+    "instruction": "Translate '(1) willy wag tail (type of bird), (2) place on upper Herbert' into Warrungu.",
+    "input": "",
+    "output": "jigirrjigirr"
+  },
+  {
+    "instruction": "Translate '3 fear, be frightened' into Warrungu.",
+    "input": "",
+    "output": "wanbalwanbali"
+  },
+  {
+    "instruction": "Translate '(reciprocal) (class unknown) punch each other/one another' into Warrungu.",
+    "input": "",
+    "output": "jinggawa"
+  },
+  {
+    "instruction": "Translate 'l (reciprocal) (class unknown) meet each other/one another' into Warrungu.",
+    "input": "",
+    "output": "jaymbawa"
+  },
+  {
+    "instruction": "Translate '1 take in' into Warrungu.",
+    "input": "",
+    "output": "jargamba"
+  },
+  {
+    "instruction": "Translate '1 make [someone/something] yours' into Warrungu.",
+    "input": "",
+    "output": "yinonga"
+  },
+  {
+    "instruction": "Translate '(?) (class unknown) bend down' into Warrungu.",
+    "input": "",
+    "output": "yorra"
+  },
+  {
+    "instruction": "Translate '(class unknown) go past [someone]' into Warrungu.",
+    "input": "",
+    "output": "garrogaja"
+  },
+  {
+    "instruction": "Translate '(class unknown) 'poke' [a woman]' into Warrungu.",
+    "input": "",
+    "output": "jijimarrga"
+  },
+  {
+    "instruction": "Translate 'l suck' into Warrungu.",
+    "input": "",
+    "output": "maja"
+  },
+  {
+    "instruction": "Translate '3 be kind [to someone]' into Warrungu.",
+    "input": "",
+    "output": "ngalmirri"
+  },
+  {
+    "instruction": "Translate '1 be^ecome well, good, get well, be good (to someone)' into Warrungu.",
+    "input": "",
+    "output": "jarribarabi"
+  },
+  {
+    "instruction": "Translate 'sit, stay' into Warrungu.",
+    "input": "",
+    "output": "nyina"
+  },
+  {
+    "instruction": "Translate 'l make .. scream or shout' into Warrungu.",
+    "input": "",
+    "output": "yagaynga"
+  },
+  {
+    "instruction": "Translate '(class unknown) hit, bust' into Warrungu.",
+    "input": "",
+    "output": "banyji"
+  },
+  {
+    "instruction": "Translate '(reciprocal) (class unknown) hit each other/one another' into Warrungu.",
+    "input": "",
+    "output": "balgawa"
+  },
+  {
+    "instruction": "Translate 'l tickle' into Warrungu.",
+    "input": "",
+    "output": "gijilmba"
+  },
+  {
+    "instruction": "What is an example of Warrungu sentence structure for: Verb–Subject order?",
+    "input": "",
+    "output": "—"
+  },
+  {
+    "instruction": "Translate 'small goanna' into Warrungu.",
+    "input": "",
+    "output": "wanggo"
+  },
+  {
+    "instruction": "Translate 'l kick' into Warrungu.",
+    "input": "",
+    "output": "jilwa"
+  },
+  {
+    "instruction": "Translate '1 do twice, [stay] two nights' into Warrungu.",
+    "input": "",
+    "output": "bolaringalbi"
+  },
+  {
+    "instruction": "Translate 'l bash' into Warrungu.",
+    "input": "",
+    "output": "baygo"
+  },
+  {
+    "instruction": "Translate 'l make rotten' into Warrungu.",
+    "input": "",
+    "output": "borngolnga"
+  },
+  {
+    "instruction": "Translate '1 make [someone] swim, carry [cattle, etc. ] on a boat across a' into Warrungu.",
+    "input": "",
+    "output": "yodinga"
+  },
+  {
+    "instruction": "Translate 'an ornament around the neck made of possum fur, which men' into Warrungu.",
+    "input": "",
+    "output": "yijaga"
+  },
+  {
+    "instruction": "Translate '1 make road' into Warrungu.",
+    "input": "",
+    "output": "yalganga"
+  },
+  {
+    "instruction": "Translate 'shag (type of big, black, water bird)' into Warrungu.",
+    "input": "",
+    "output": "ganambirra"
+  },
+  {
+    "instruction": "Translate 'rock wallaby (small)' into Warrungu.",
+    "input": "",
+    "output": "bawor"
+  },
+  {
+    "instruction": "Translate 'l marry (i. e. make someone marry ?)' into Warrungu.",
+    "input": "",
+    "output": "jolbonnga"
+  },
+  {
+    "instruction": "Translate 'l make full' into Warrungu.",
+    "input": "",
+    "output": "gajabalgaranga"
+  },
+  {
+    "instruction": "Translate 'l (instrumental verb) put [something] in [something]' into Warrungu.",
+    "input": "",
+    "output": "bindari"
+  },
+  {
+    "instruction": "Translate '(class unknown) stand up' into Warrungu.",
+    "input": "",
+    "output": "janaya"
+  },
+  {
+    "instruction": "Translate '1 be^ecome soft' into Warrungu.",
+    "input": "",
+    "output": "mojalabi"
+  },
+  {
+    "instruction": "Translate '1 kneel down' into Warrungu.",
+    "input": "",
+    "output": "bonggolnborobi"
+  },
+  {
+    "instruction": "Translate 'honey comb (wax with honey inside)' into Warrungu.",
+    "input": "",
+    "output": "jangal"
+  },
+  {
+    "instruction": "Translate '1 make two, do twice, etc.' into Warrungu.",
+    "input": "",
+    "output": "bolaringa"
+  },
+  {
+    "instruction": "Translate '(class I?) vomit. n that which is vomited' into Warrungu.",
+    "input": "",
+    "output": "gawa"
+  },
+  {
+    "instruction": "Translate 'l bury' into Warrungu.",
+    "input": "",
+    "output": "jolbanga"
+  },
+  {
+    "instruction": "Translate 'l make [someone] lustful' into Warrungu.",
+    "input": "",
+    "output": "jononga"
+  },
+  {
+    "instruction": "Translate '1 be/become low down' into Warrungu.",
+    "input": "",
+    "output": "nyarrgabi"
+  },
+  {
+    "instruction": "Translate '(Jalnguy?) butcherbird' into Warrungu.",
+    "input": "",
+    "output": "bowonybowony"
+  },
+  {
+    "instruction": "Translate 'l swim' into Warrungu.",
+    "input": "",
+    "output": "yodi"
+  },
+  {
+    "instruction": "Translate '3 (reflexive) masturbate, poke oneself' into Warrungu.",
+    "input": "",
+    "output": "bibibabali"
+  },
+  {
+    "instruction": "Translate 'l drink, swallow, suck' into Warrungu.",
+    "input": "",
+    "output": "bija"
+  },
+  {
+    "instruction": "Translate 'fin of fish' into Warrungu.",
+    "input": "",
+    "output": "yindil"
+  },
+  {
+    "instruction": "Translate '1 be good, feel well' into Warrungu.",
+    "input": "",
+    "output": "wamaynbi"
+  },
+  {
+    "instruction": "Translate '(class unknown) float (on the water)' into Warrungu.",
+    "input": "",
+    "output": "walngga"
+  },
+  {
+    "instruction": "Translate 'scale of fish' into Warrungu.",
+    "input": "",
+    "output": "dirin"
+  },
+  {
+    "instruction": "Translate 'butcher bird??, yam ??' into Warrungu.",
+    "input": "",
+    "output": "gonyaga"
+  },
+  {
+    "instruction": "Translate 'l rub, wipe, wipe off, wash' into Warrungu.",
+    "input": "",
+    "output": "jorra"
+  },
+  {
+    "instruction": "Translate '(class unknown) beckon (by hand)' into Warrungu.",
+    "input": "",
+    "output": "jolga"
+  },
+  {
+    "instruction": "Translate '1 (instrumental verb) put... in ...' into Warrungu.",
+    "input": "",
+    "output": "jargari"
+  },
+  {
+    "instruction": "Translate 'l (instrumental verb) rub ... with ...' into Warrungu.",
+    "input": "",
+    "output": "jobiri"
+  },
+  {
+    "instruction": "Translate 'l (plural verb) give [to many], ?[many] give ??' into Warrungu.",
+    "input": "",
+    "output": "goybara"
+  },
+  {
+    "instruction": "Translate 'tree kangaroo' into Warrungu.",
+    "input": "",
+    "output": "bolnggarri"
+  },
+  {
+    "instruction": "Translate 'l carry on the shoulder' into Warrungu.",
+    "input": "",
+    "output": "ganyjimba"
+  },
+  {
+    "instruction": "Translate 'bush rat (brown, lives in the bush)' into Warrungu.",
+    "input": "",
+    "output": "bargil"
+  },
+  {
+    "instruction": "Translate '(1) moon, moonlight, month, (2) Waterfall Creek (not far from' into Warrungu.",
+    "input": "",
+    "output": "balano"
+  },
+  {
+    "instruction": "Translate 'green ant' into Warrungu.",
+    "input": "",
+    "output": "garowon"
+  },
+  {
+    "instruction": "Translate '1 be like a man/human, come to life' into Warrungu.",
+    "input": "",
+    "output": "bamabi"
+  },
+  {
+    "instruction": "Translate 'bone, lump, fruit seed, wart' into Warrungu.",
+    "input": "",
+    "output": "balban"
+  },
+  {
+    "instruction": "Translate '1 (instrumental verb) throw ... to ...' into Warrungu.",
+    "input": "",
+    "output": "goybari"
+  },
+  {
+    "instruction": "Translate '3 (reflexive) be cooked, bum' into Warrungu.",
+    "input": "",
+    "output": "wajoli"
+  },
+  {
+    "instruction": "Translate '1 (comitative verb) play with' into Warrungu.",
+    "input": "",
+    "output": "wadari"
+  },
+  {
+    "instruction": "Translate '???' into Warrungu.",
+    "input": "",
+    "output": "waga-ri"
+  },
+  {
+    "instruction": "Translate 'l (instrumental verb) cover ... with ...' into Warrungu.",
+    "input": "",
+    "output": "gambari"
+  },
+  {
+    "instruction": "Translate '(reciprocal) (class unknown) shoot each other/one another' into Warrungu.",
+    "input": "",
+    "output": "bambowa"
+  },
+  {
+    "instruction": "Translate 'l bash, kill' into Warrungu.",
+    "input": "",
+    "output": "baygonga"
+  },
+  {
+    "instruction": "Translate '1 feel funny, be afraid, be annoyed' into Warrungu.",
+    "input": "",
+    "output": "binyjilgomanbi"
+  },
+  {
+    "instruction": "Translate 'l bury' into Warrungu.",
+    "input": "",
+    "output": "jabomba"
+  },
+  {
+    "instruction": "Translate 'Turtle Jump (a place in Wamma area). Its etymology' into Warrungu.",
+    "input": "",
+    "output": "banggorro-jolbal"
+  },
+  {
+    "instruction": "Translate 'l (instrumental verb) cover ... with ...' into Warrungu.",
+    "input": "",
+    "output": "garbari"
+  },
+  {
+    "instruction": "Translate 'l spoil' into Warrungu.",
+    "input": "",
+    "output": "walmanga"
+  },
+  {
+    "instruction": "Translate '(class unknown) stand about' into Warrungu.",
+    "input": "",
+    "output": "jananda"
+  },
+  {
+    "instruction": "Translate 'l blow [nose], blow, smoke [tobacco]' into Warrungu.",
+    "input": "",
+    "output": "boya"
+  },
+  {
+    "instruction": "Translate '1 make good, do in a good way, tell the truth, cure' into Warrungu.",
+    "input": "",
+    "output": "wamaynga"
+  },
+  {
+    "instruction": "Translate 'water' into Warrungu.",
+    "input": "",
+    "output": "gamo"
+  },
+  {
+    "instruction": "Translate 'l point a finger at [someone]' into Warrungu.",
+    "input": "",
+    "output": "jogalmba"
+  },
+  {
+    "instruction": "Translate 'turtle (freshwater tiirtle)' into Warrungu.",
+    "input": "",
+    "output": "banggorro"
+  },
+  {
+    "instruction": "Translate '(class unknown) spat on [someone] with saliva' into Warrungu.",
+    "input": "",
+    "output": "boybo"
+  },
+  {
+    "instruction": "Translate '(class unknown) spread' into Warrungu.",
+    "input": "",
+    "output": "yabanda"
+  },
+  {
+    "instruction": "Translate '1 (all) go away, spread, scatter' into Warrungu.",
+    "input": "",
+    "output": "warrgarabi"
+  },
+  {
+    "instruction": "Translate 'type of fish' into Warrungu.",
+    "input": "",
+    "output": "woroyan"
+  },
+  {
+    "instruction": "Translate 'any little bird' into Warrungu.",
+    "input": "",
+    "output": "dondo"
+  },
+  {
+    "instruction": "Translate '1 give or send (to the speaker ?)' into Warrungu.",
+    "input": "",
+    "output": "jaymbaynga"
+  },
+  {
+    "instruction": "Translate '(class unknown) (not Warrungu but Jirrbal, Girramay?) cover up' into Warrungu.",
+    "input": "",
+    "output": "goba"
+  },
+  {
+    "instruction": "Translate 'l forget' into Warrungu.",
+    "input": "",
+    "output": "garrbabi"
+  },
+  {
+    "instruction": "Translate '1 wound, hurt, spear [someone] through' into Warrungu.",
+    "input": "",
+    "output": "bonbarranga"
+  },
+  {
+    "instruction": "What is the Warrungu word for 'Maternal Grandmother (MM)'?",
+    "input": "",
+    "output": "babi"
+  },
+  {
+    "instruction": "Translate '1 be/become bad, go bad, get wild' into Warrungu.",
+    "input": "",
+    "output": "walwabi"
+  },
+  {
+    "instruction": "Translate '1 [send, etc. ] here/hither' into Warrungu.",
+    "input": "",
+    "output": "yarronga"
+  },
+  {
+    "instruction": "Translate 'tail (of fish only)' into Warrungu.",
+    "input": "",
+    "output": "jirri"
+  },
+  {
+    "instruction": "Translate 'I go to or for water' into Warrungu.",
+    "input": "",
+    "output": "gamowobi"
+  },
+  {
+    "instruction": "Translate '1 stab, dig, sew, wash, comb' into Warrungu.",
+    "input": "",
+    "output": "baba"
+  },
+  {
+    "instruction": "Translate '(class unknown) old female kangaroo?, young female' into Warrungu.",
+    "input": "",
+    "output": "gorgay"
+  },
+  {
+    "instruction": "Translate 'l do what to or with [someone, something], make what, do' into Warrungu.",
+    "input": "",
+    "output": "nganinga"
+  },
+  {
+    "instruction": "Translate 'fresh water lobster' into Warrungu.",
+    "input": "",
+    "output": "yigarra"
+  },
+  {
+    "instruction": "Translate '(class unknown) little bird like king fisher or jackass' into Warrungu.",
+    "input": "",
+    "output": "jijoloroy"
+  },
+  {
+    "instruction": "Translate '1 fetch (this way), gather up [wood]' into Warrungu.",
+    "input": "",
+    "output": "birringa"
+  },
+  {
+    "instruction": "Translate '1 put down, bear (give birth to), cover up, hide' into Warrungu.",
+    "input": "",
+    "output": "garba"
+  },
+  {
+    "instruction": "What is the Warrungu word for 'Mother (M)'?",
+    "input": "",
+    "output": "yanga"
+  },
+  {
+    "instruction": "Translate 'young female kangaroo, young kangaroo (both male and' into Warrungu.",
+    "input": "",
+    "output": "mangara"
+  },
+  {
+    "instruction": "Translate '1 be/become different' into Warrungu.",
+    "input": "",
+    "output": "gomanbi"
+  },
+  {
+    "instruction": "Translate '1 be a doctor' into Warrungu.",
+    "input": "",
+    "output": "gobibi"
+  },
+  {
+    "instruction": "Translate 'l return' into Warrungu.",
+    "input": "",
+    "output": "golminga"
+  },
+  {
+    "instruction": "Translate 'black goanna, bull goanna (big, on a tree)' into Warrungu.",
+    "input": "",
+    "output": "gogar"
+  },
+  {
+    "instruction": "Translate '1 be sorry' into Warrungu.",
+    "input": "",
+    "output": "jago"
+  },
+  {
+    "instruction": "Translate '1 let go' into Warrungu.",
+    "input": "",
+    "output": "wandaynga"
+  },
+  {
+    "instruction": "Translate 'bark chips that come off a trunk caused by a possum's' into Warrungu.",
+    "input": "",
+    "output": "boyalboyal"
+  },
+  {
+    "instruction": "Translate 'bigger type of red scrub wallaby' into Warrungu.",
+    "input": "",
+    "output": "bonggil"
+  },
+  {
+    "instruction": "Translate '1 (not an instrumental verb) watch, mind' into Warrungu.",
+    "input": "",
+    "output": "nyaganyagari"
+  },
+  {
+    "instruction": "Translate 'l be made, form into [something], be bom' into Warrungu.",
+    "input": "",
+    "output": "mirabi"
+  },
+  {
+    "instruction": "Translate 'a bone from a kangaroo leg, used to decorate the (human) nose' into Warrungu.",
+    "input": "",
+    "output": "jonjo"
+  },
+  {
+    "instruction": "Translate 'sneak up (yani 'go (vi)')' into Warrungu.",
+    "input": "",
+    "output": "yama-yani"
+  },
+  {
+    "instruction": "Translate '(1) pouch of kangaroo, (2) upper part of minga, (3) (?) to clap' into Warrungu.",
+    "input": "",
+    "output": "bongon"
+  },
+  {
+    "instruction": "Translate 'egg' into Warrungu.",
+    "input": "",
+    "output": "gogoji"
+  },
+  {
+    "instruction": "Translate 'l pluck' into Warrungu.",
+    "input": "",
+    "output": "bobi"
+  },
+  {
+    "instruction": "Translate '1 (instmmental verb) carry ... with ...' into Warrungu.",
+    "input": "",
+    "output": "ganyjiri"
+  },
+  {
+    "instruction": "What is the Warrungu word for 'Brother-in-law (other)'?",
+    "input": "",
+    "output": "joway"
+  },
+  {
+    "instruction": "Translate '(instrumental) smell with' into Warrungu.",
+    "input": "",
+    "output": "balmbiri"
+  },
+  {
+    "instruction": "Translate '1 (comitative verb) rest on ...' into Warrungu.",
+    "input": "",
+    "output": "wandiri"
+  },
+  {
+    "instruction": "Translate 'I get dry' into Warrungu.",
+    "input": "",
+    "output": "gadalabi"
+  },
+  {
+    "instruction": "Translate '1 cut, break, chop' into Warrungu.",
+    "input": "",
+    "output": "gonma"
+  },
+  {
+    "instruction": "Translate '(not reciprocal) (class unknown) go in' into Warrungu.",
+    "input": "",
+    "output": "jargawa"
+  },
+  {
+    "instruction": "Translate '1 come close (to the speaker ?)' into Warrungu.",
+    "input": "",
+    "output": "jaymbaybi"
+  },
+  {
+    "instruction": "Translate '3 do like that ???' into Warrungu.",
+    "input": "",
+    "output": "yamangali"
+  },
+  {
+    "instruction": "Translate '(any) kangaroo' into Warrungu.",
+    "input": "",
+    "output": "yori"
+  },
+  {
+    "instruction": "Translate 'carpet snake' into Warrungu.",
+    "input": "",
+    "output": "gabol"
+  },
+  {
+    "instruction": "Translate 'tripe (e. g. of cattle)' into Warrungu.",
+    "input": "",
+    "output": "gawarr"
+  },
+  {
+    "instruction": "Translate 'Yamani Creek' into Warrungu.",
+    "input": "",
+    "output": "yorroymbi"
+  },
+  {
+    "instruction": "Translate '(irregular verb) go, come' into Warrungu.",
+    "input": "",
+    "output": "yani"
+  },
+  {
+    "instruction": "Translate 'l get hurt, hurt oneself' into Warrungu.",
+    "input": "",
+    "output": "marrnyjabi"
+  },
+  {
+    "instruction": "Translate '1 lift up' into Warrungu.",
+    "input": "",
+    "output": "ngarranga"
+  },
+  {
+    "instruction": "Translate '(class unknown. Class I?) (possibly 1) be dizzy, groggy, mad' into Warrungu.",
+    "input": "",
+    "output": "boni"
+  },
+  {
+    "instruction": "Translate '1 be^ecome a big heap' into Warrungu.",
+    "input": "",
+    "output": "molgorrabi"
+  },
+  {
+    "instruction": "Translate 'l be cold (of a room etc.)' into Warrungu.",
+    "input": "",
+    "output": "birrgibarabi"
+  },
+  {
+    "instruction": "Translate 'l make .. rustle, double up' into Warrungu.",
+    "input": "",
+    "output": "jogolanga"
+  },
+  {
+    "instruction": "Translate 'l sleep' into Warrungu.",
+    "input": "",
+    "output": "wogabi"
+  },
+  {
+    "instruction": "Translate '(1) ant bed, ant nest, (2) black soil (country)??' into Warrungu.",
+    "input": "",
+    "output": "ngonyjira"
+  },
+  {
+    "instruction": "Translate 'l grow up' into Warrungu.",
+    "input": "",
+    "output": "jogamba"
+  },
+  {
+    "instruction": "Translate 'l startle' into Warrungu.",
+    "input": "",
+    "output": "mongganga"
+  },
+  {
+    "instruction": "What is the Warrungu word for 'Reference-term suffix'?",
+    "input": "",
+    "output": "-gan"
+  },
+  {
+    "instruction": "Translate '1 be young, become young again, look sfa-ange' into Warrungu.",
+    "input": "",
+    "output": "nyilamobi"
+  },
+  {
+    "instruction": "Translate 'l make ... cold' into Warrungu.",
+    "input": "",
+    "output": "gidonga"
+  },
+  {
+    "instruction": "Translate 'round yam' into Warrungu.",
+    "input": "",
+    "output": "gonyjangarra"
+  },
+  {
+    "instruction": "Translate '(1) shin bone, (2) fish bone' into Warrungu.",
+    "input": "",
+    "output": "mogo"
+  },
+  {
+    "instruction": "Translate 'l (not Warrungu?) smell' into Warrungu.",
+    "input": "",
+    "output": "nyomo"
+  },
+  {
+    "instruction": "Translate 'l be/become blocked up' into Warrungu.",
+    "input": "",
+    "output": "bajabi"
+  },
+  {
+    "instruction": "What is the Warrungu ergative singular pronoun for '2nd'?",
+    "input": "",
+    "output": "yinda"
+  },
+  {
+    "instruction": "Translate 'l be/become bark chips' into Warrungu.",
+    "input": "",
+    "output": "boyalboyalbi"
+  },
+  {
+    "instruction": "Translate '1 heap up, collect' into Warrungu.",
+    "input": "",
+    "output": "rimbonga"
+  },
+  {
+    "instruction": "Translate 'l open legs for intercourse (of woman)' into Warrungu.",
+    "input": "",
+    "output": "yabarrbi"
+  },
+  {
+    "instruction": "Translate '1 send, etc. to the west' into Warrungu.",
+    "input": "",
+    "output": "gowanga"
+  },
+  {
+    "instruction": "Translate '1 have a rest, have a spell' into Warrungu.",
+    "input": "",
+    "output": "wombilbi"
+  },
+  {
+    "instruction": "Translate '(not Warrungu ?) water' into Warrungu.",
+    "input": "",
+    "output": "jojamo"
+  },
+  {
+    "instruction": "Translate 'l send, hunt away, make [someone] do ...' into Warrungu.",
+    "input": "",
+    "output": "birri"
+  },
+  {
+    "instruction": "Translate '1 nick, make a small wound' into Warrungu.",
+    "input": "",
+    "output": "babi"
+  },
+  {
+    "instruction": "Translate 'l be busy doing something and not looking, forget all' into Warrungu.",
+    "input": "",
+    "output": "nyorrngobi"
+  },
+  {
+    "instruction": "What is an example of Warrungu sentence structure for: Ergative–Absolutive–Verb (unmarked transitive)?",
+    "input": "",
+    "output": "ngaya yino goyba-lgo yarro-0"
+  },
+  {
+    "instruction": "Translate '1 feel sorry for ??' into Warrungu.",
+    "input": "",
+    "output": "goynbormba"
+  },
+  {
+    "instruction": "Translate 'fishing net' into Warrungu.",
+    "input": "",
+    "output": "mogarro"
+  },
+  {
+    "instruction": "Translate 'string, hair string, string from bark, loya cane, fishing line' into Warrungu.",
+    "input": "",
+    "output": "gamban"
+  },
+  {
+    "instruction": "Translate 'quail (type of bird)' into Warrungu.",
+    "input": "",
+    "output": "jiribi"
+  },
+  {
+    "instruction": "Translate 'type of little bird with big eyes' into Warrungu.",
+    "input": "",
+    "output": "nyaraga"
+  },
+  {
+    "instruction": "Translate 'l go where' into Warrungu.",
+    "input": "",
+    "output": "wanyjarrobi"
+  },
+  {
+    "instruction": "Translate '3 be in a hurry' into Warrungu.",
+    "input": "",
+    "output": "yamorryamorri"
+  },
+  {
+    "instruction": "Translate 'l (Jalnguy?) eat. Cf. muja' into Warrungu.",
+    "input": "",
+    "output": "woja"
+  },
+  {
+    "instruction": "Translate 'l hide' into Warrungu.",
+    "input": "",
+    "output": "garoynga"
+  },
+  {
+    "instruction": "Translate 'l be busy doing ...' into Warrungu.",
+    "input": "",
+    "output": "nyorrngonyorrngobi"
+  },
+  {
+    "instruction": "Translate '(class unknown) cry' into Warrungu.",
+    "input": "",
+    "output": "goyi"
+  },
+  {
+    "instruction": "Translate '3 get cold' into Warrungu.",
+    "input": "",
+    "output": "gidoli"
+  },
+  {
+    "instruction": "Translate 'crack' into Warrungu.",
+    "input": "",
+    "output": "gadali"
+  },
+  {
+    "instruction": "Translate 'l do something in large numbers' into Warrungu.",
+    "input": "",
+    "output": "yalnyjabarabi"
+  },
+  {
+    "instruction": "Translate '(1) fresh water black bream, yellow belly, (2) oak tree' into Warrungu.",
+    "input": "",
+    "output": "galgagan"
+  },
+  {
+    "instruction": "Translate '(class 1 ??) swell up' into Warrungu.",
+    "input": "",
+    "output": "bijari"
+  },
+  {
+    "instruction": "Translate 'l make forget (?)' into Warrungu.",
+    "input": "",
+    "output": "borrmonga"
+  },
+  {
+    "instruction": "Translate '1 make clean' into Warrungu.",
+    "input": "",
+    "output": "marrgalnga"
+  },
+  {
+    "instruction": "Translate 'fishing spear (with one blade and one point, sharp)' into Warrungu.",
+    "input": "",
+    "output": "bogarra"
+  },
+  {
+    "instruction": "Translate 'fi-esh water black bream' into Warrungu.",
+    "input": "",
+    "output": "mogil"
+  },
+  {
+    "instruction": "Translate 'l promise' into Warrungu.",
+    "input": "",
+    "output": "mijirraynga"
+  },
+  {
+    "instruction": "Translate 'jumping frog (with a long nose, jumps for about 5 metres, lives' into Warrungu.",
+    "input": "",
+    "output": "binbany"
+  },
+  {
+    "instruction": "Translate '1 make wet' into Warrungu.",
+    "input": "",
+    "output": "marinyanga"
+  },
+  {
+    "instruction": "Translate '(class unknown) fight' into Warrungu.",
+    "input": "",
+    "output": "goni"
+  },
+  {
+    "instruction": "Translate 'l (instrumental verb) scrape ... with ...' into Warrungu.",
+    "input": "",
+    "output": "gibari"
+  },
+  {
+    "instruction": "Translate '1 get cold, cool' into Warrungu.",
+    "input": "",
+    "output": "gidobi"
+  },
+  {
+    "instruction": "Translate 'l eat repeatedly (today, tomorrow, the day after, etc. ), have' into Warrungu.",
+    "input": "",
+    "output": "mojamoja"
+  },
+  {
+    "instruction": "Translate '(class unknown) wake up, lift up, pick up' into Warrungu.",
+    "input": "",
+    "output": "walmbi"
+  },
+  {
+    "instruction": "Translate 'fresh water shrimp' into Warrungu.",
+    "input": "",
+    "output": "mawa"
+  },
+  {
+    "instruction": "Translate '(class unknown) call up' into Warrungu.",
+    "input": "",
+    "output": "gayba"
+  },
+  {
+    "instruction": "Translate 'l (instrumental verb) shoot with' into Warrungu.",
+    "input": "",
+    "output": "bambori"
+  },
+  {
+    "instruction": "Translate '3 be or sit quiet' into Warrungu.",
+    "input": "",
+    "output": "nyinyjili"
+  },
+  {
+    "instruction": "Can you give me an example of the suffix '–garra-Y' in a Warrungu sentence?",
+    "input": "",
+    "output": "wanyo-ngo gando-0 bonba-garra-n? ‘Whose dog is barking?’"
+  },
+  {
+    "instruction": "Translate 'louse egg' into Warrungu.",
+    "input": "",
+    "output": "niwan"
+  },
+  {
+    "instruction": "Translate '1 forget, be deaf' into Warrungu.",
+    "input": "",
+    "output": "borrmobi"
+  },
+  {
+    "instruction": "Translate 'l (1) lift up, pickup; wake up, (2) choose, adopt (a child)' into Warrungu.",
+    "input": "",
+    "output": "wagamba"
+  },
+  {
+    "instruction": "Translate 'wild peanut, with six nuts each' into Warrungu.",
+    "input": "",
+    "output": "dodam"
+  },
+  {
+    "instruction": "Translate 'l (instrumental verb) stab with' into Warrungu.",
+    "input": "",
+    "output": "babari"
+  },
+  {
+    "instruction": "Translate 'l cure' into Warrungu.",
+    "input": "",
+    "output": "joramba"
+  },
+  {
+    "instruction": "Translate 'fishing spear (with one blade and one point, sharp)' into Warrungu.",
+    "input": "",
+    "output": "bogarra"
+  },
+  {
+    "instruction": "Translate 'whip snake' into Warrungu.",
+    "input": "",
+    "output": "girimo"
+  },
+  {
+    "instruction": "Translate 'l send .. here, pull' into Warrungu.",
+    "input": "",
+    "output": "yarrongonga"
+  },
+  {
+    "instruction": "Translate '1 (Girramay ?) feel, touch' into Warrungu.",
+    "input": "",
+    "output": "gorma"
+  },
+  {
+    "instruction": "Translate '(?) cicatrices (Its etymology is possibly gunba-nyu 'cut-' into Warrungu.",
+    "input": "",
+    "output": "gonbanyo"
+  },
+  {
+    "instruction": "Translate '(class unknown) walk about' into Warrungu.",
+    "input": "",
+    "output": "waymba"
+  },
+  {
+    "instruction": "Translate '(reciprocal) (class unknown) paint each other/one another' into Warrungu.",
+    "input": "",
+    "output": "banggawa"
+  },
+  {
+    "instruction": "Translate '1 make (fingers) crack' into Warrungu.",
+    "input": "",
+    "output": "bandaynga"
+  },
+  {
+    "instruction": "Translate 'l snore' into Warrungu.",
+    "input": "",
+    "output": "bonggorraybonggorraybi"
+  },
+  {
+    "instruction": "Translate 'l wash' into Warrungu.",
+    "input": "",
+    "output": "galbababa"
+  },
+  {
+    "instruction": "Translate '1 do ... until tomorrow' into Warrungu.",
+    "input": "",
+    "output": "garrbalawobi"
+  },
+  {
+    "instruction": "Translate '1 sit down, have a spell, not work too hard' into Warrungu.",
+    "input": "",
+    "output": "wombi"
+  },
+  {
+    "instruction": "Translate '(reciprocal) (class unknown) see or look at each other/one' into Warrungu.",
+    "input": "",
+    "output": "nyagawa"
+  },
+  {
+    "instruction": "Translate '(class unknown) shake' into Warrungu.",
+    "input": "",
+    "output": "nalngi"
+  },
+  {
+    "instruction": "Translate '3 shake (with fear, anger, cold), be frightened' into Warrungu.",
+    "input": "",
+    "output": "banbarri"
+  },
+  {
+    "instruction": "Translate 'lie, lie down, camp' into Warrungu.",
+    "input": "",
+    "output": "wona"
+  },
+  {
+    "instruction": "Translate 'stone fish-trap' into Warrungu.",
+    "input": "",
+    "output": "mamo"
+  },
+  {
+    "instruction": "Translate 'l smash, crush' into Warrungu.",
+    "input": "",
+    "output": "bonjaynga"
+  },
+  {
+    "instruction": "Translate '1 go west' into Warrungu.",
+    "input": "",
+    "output": "gowabi"
+  },
+  {
+    "instruction": "Translate '2 (?) slip, crawl (like a snake)' into Warrungu.",
+    "input": "",
+    "output": "joyora"
+  },
+  {
+    "instruction": "Translate 'fool, deceive, tell a lie to, promise' into Warrungu.",
+    "input": "",
+    "output": "gajimba"
+  },
+  {
+    "instruction": "Translate '1 take no notice' into Warrungu.",
+    "input": "",
+    "output": "bojilmba"
+  },
+  {
+    "instruction": "Translate '1 tell a lie, pretend' into Warrungu.",
+    "input": "",
+    "output": "maganbi"
+  },
+  {
+    "instruction": "Translate 'Spring Water Creek (on Herbert River in Wairuna' into Warrungu.",
+    "input": "",
+    "output": "bogonbogon"
+  },
+  {
+    "instruction": "Translate '(reciprocal) (class unknown) (not Warrungu?) tell each' into Warrungu.",
+    "input": "",
+    "output": "marrawa"
+  },
+  {
+    "instruction": "Translate '(class unknown, 1 ?) hit (with pliu-al agents)' into Warrungu.",
+    "input": "",
+    "output": "balgara"
+  },
+  {
+    "instruction": "Translate '1 send, let [person] go, show' into Warrungu.",
+    "input": "",
+    "output": "goybalnga"
+  },
+  {
+    "instruction": "Translate 'sleepy lizard (type of lizard)' into Warrungu.",
+    "input": "",
+    "output": "jolmbaji"
+  },
+  {
+    "instruction": "Translate '1 feel fine, well, good' into Warrungu.",
+    "input": "",
+    "output": "binyji"
+  },
+  {
+    "instruction": "Translate '1 carry on the lap or belly' into Warrungu.",
+    "input": "",
+    "output": "ngamimba"
+  },
+  {
+    "instruction": "Translate '(reciprocal) (class unknown) ask each other/one another' into Warrungu.",
+    "input": "",
+    "output": "banjowa"
+  },
+  {
+    "instruction": "Translate 'fresh water flathead (a type of fish)' into Warrungu.",
+    "input": "",
+    "output": "jonggorra"
+  },
+  {
+    "instruction": "Translate '1 be/become similar, do/be like that' into Warrungu.",
+    "input": "",
+    "output": "yamanyonbi"
+  },
+  {
+    "instruction": "Translate 'l find' into Warrungu.",
+    "input": "",
+    "output": "jaymba"
+  },
+  {
+    "instruction": "Translate 'l give, throw' into Warrungu.",
+    "input": "",
+    "output": "goyba"
+  },
+  {
+    "instruction": "Translate 'l squeeze. Cf. julma' into Warrungu.",
+    "input": "",
+    "output": "jonma"
+  },
+  {
+    "instruction": "Translate '1 (instrumental verb) cut... with ...' into Warrungu.",
+    "input": "",
+    "output": "gonbari"
+  },
+  {
+    "instruction": "Translate 'water lily' into Warrungu.",
+    "input": "",
+    "output": "mogaro"
+  },
+  {
+    "instruction": "Translate 'fighting stick, big yam stick?' into Warrungu.",
+    "input": "",
+    "output": "jalinbirri"
+  },
+  {
+    "instruction": "What is an example of Warrungu sentence structure for: Suffix –n-ji/–ji marks 'with'?",
+    "input": "",
+    "output": "ngaygo-n-ji"
+  },
+  {
+    "instruction": "Translate 'kangaroo rat' into Warrungu.",
+    "input": "",
+    "output": "barngala"
+  },
+  {
+    "instruction": "Translate '1 keep, hold in a greedy way' into Warrungu.",
+    "input": "",
+    "output": "moringa"
+  },
+  {
+    "instruction": "Translate '(class unknown) (not Warrungu ?) set up [fence], do' into Warrungu.",
+    "input": "",
+    "output": "golmborrma"
+  },
+  {
+    "instruction": "Translate 'l suck' into Warrungu.",
+    "input": "",
+    "output": "yorrmbi"
+  },
+  {
+    "instruction": "Translate 'l lick' into Warrungu.",
+    "input": "",
+    "output": "woymbi"
+  },
+  {
+    "instruction": "Translate '1 be shy, ashamed' into Warrungu.",
+    "input": "",
+    "output": "ngorga-1"
+  },
+  {
+    "instruction": "Translate '3 be sorry, quiet' into Warrungu.",
+    "input": "",
+    "output": "jagoli"
+  },
+  {
+    "instruction": "Translate 'l spew out' into Warrungu.",
+    "input": "",
+    "output": "rayja"
+  },
+  {
+    "instruction": "Translate '1 go black' into Warrungu.",
+    "input": "",
+    "output": "ngonyolbi"
+  },
+  {
+    "instruction": "Translate 'l help (e. g. in a fight)' into Warrungu.",
+    "input": "",
+    "output": "golmbalbi"
+  },
+  {
+    "instruction": "Translate '1 stand up, look after, mind, keep' into Warrungu.",
+    "input": "",
+    "output": "janari"
+  },
+  {
+    "instruction": "Translate 'l (1) put [part of something, not the whole] in the water (not' into Warrungu.",
+    "input": "",
+    "output": "yora"
+  },
+  {
+    "instruction": "Translate 'I become big, grow up' into Warrungu.",
+    "input": "",
+    "output": "gagabarabi"
+  },
+  {
+    "instruction": "Translate '1 put altogether, mix up' into Warrungu.",
+    "input": "",
+    "output": "garonga"
+  },
+  {
+    "instruction": "Translate '(class unknown) grind, sharpen' into Warrungu.",
+    "input": "",
+    "output": "mobi"
+  },
+  {
+    "instruction": "Translate '(1) big bony bream (in fresh water), (2) place in Kirrama' into Warrungu.",
+    "input": "",
+    "output": "girmbala"
+  },
+  {
+    "instruction": "Translate 'l carry, take, bring, wear, put on' into Warrungu.",
+    "input": "",
+    "output": "ganyji"
+  }
+]

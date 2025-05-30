@@ -1,0 +1,58 @@
+# === Model Setup ===
+base_model: mistralai/Mistral-7B-Instruct-v0.2
+model_type: MistralForCausalLM
+tokenizer_type: AutoTokenizer
+is_llama_derived_model: true
+low_cpu_mem_usage: false
+device_map:
+  "": 0
+max_memory:
+  0: 14GB
+
+# === Data ===
+datasets:
+  - path: ./warrungu_chat_dataset.json
+    type: alpaca
+    prompt_style: chat
+
+dataset_prepared_path: ./prepared_warrungu_chat_dataset
+val_set_size: 0.05
+
+prompt_fields:
+  instruction: instruction
+  input: ""
+  output: output
+
+# === Output & Checkpointing ===
+output_dir: ./outputs/warrungu-mistral-chat
+hub_model_id: warrungu-mistral-chat-ai
+hub_strategy: every_save
+
+# === Sequence & Packing ===
+sequence_len: 2048
+sample_packing: false
+eval_sample_packing: false
+pad_to_sequence_len: true
+
+# === (No Adapter, No Quantization) ===
+
+# === Training Hyperparameters ===
+gradient_accumulation_steps: 2
+micro_batch_size: 2
+num_epochs: 3
+optimizer: adamw_bnb_8bit
+lr_scheduler: cosine
+learning_rate: 2e-5
+
+# === Logging & Saving ===
+save_steps: 50
+eval_steps: 10
+save_total_limit: 3
+logging_steps: 10
+
+train_on_inputs: false
+group_by_length: false
+bf16: auto
+fp16: false
+tf32: true
+early_stopping_patience: 5
