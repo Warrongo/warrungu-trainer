@@ -1,18 +1,23 @@
+# ====================================================================
+#   requirements.txt for running Axolotl 0.9.0 in a Space
+# ====================================================================
+
+# (1) Download wheels from the custom index for autogptq/cu118
 --extra-index-url https://huggingface.github.io/autogptq-index/whl/cu118/
 
-# 1) Core Axolotl package (pins its dependencies)
+# (2) Core Axolotl package (locks several transitive versions)
 axolotl==0.9.0
 
-# 2) Ensure “packaging” is installed before any build-time deps
+# (3) Ensure "packaging" is available before any build‐time deps
 packaging==23.2
 
-# === Dependencies that don’t install on macOS ===
+# === Dependencies that do not install on macOS ===
 bitsandbytes==0.45.4
 triton>=3.0.0
-# mamba-ssm==1.2.0.post1   # ← commented out because it fails without torch present
+# mamba-ssm==1.2.0.post1    # ← commented out because it fails without torch installed
 xformers>=0.0.23.post1
 autoawq==0.2.7.post3
-liger-kernel==0.5.8       # ← matches axolotl 0.9.0’s locked version
+liger-kernel==0.5.8         # ← match axolotl's locked version
 
 # === Hugging Face + Transformers ecosystem ===
 huggingface_hub==0.31.0
@@ -20,10 +25,10 @@ peft==0.15.2
 transformers==4.51.3
 tokenizers>=0.21.1
 accelerate==1.6.0
-datasets==3.5.0           # ← downgraded from 3.5.1 to satisfy axolotl 0.9.0
+datasets==3.5.0             # ← downgraded to satisfy axolotl 0.9.0
 deepspeed>=0.15.4
 trl==0.17.0
-hf_xet==1.0.0             # ← downgraded from 1.1.0 to satisfy axolotl 0.9.0
+hf_xet==1.0.0               # ← downgraded to satisfy axolotl 0.9.0
 hqq==0.2.5
 
 optimum==1.16.2
@@ -31,6 +36,7 @@ hf_transfer
 sentencepiece
 gradio==5.23.3
 
+# === Miscellaneous utility libraries ===
 modal==0.70.5
 pydantic==2.10.6
 addict
@@ -43,7 +49,7 @@ colorama
 numba
 numpy>=1.24.4,<=2.0.1
 
-# === QLoRA & related tooling ===
+# === QLoRA & evaluation tooling ===
 evaluate==0.4.1
 scipy
 scikit-learn==1.4.2
@@ -67,7 +73,7 @@ langdetect==1.0.9
 immutabledict==4.2.0
 antlr4-python3-runtime==4.13.2
 
-torchao==0.10.0
+torchao==0.9.0             # ← match axolotl's locked version
 schedulefree==1.4.1
 
 axolotl-contribs-lgpl==0.0.6
