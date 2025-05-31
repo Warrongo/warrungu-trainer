@@ -6,7 +6,7 @@ packaging==23.2
 # START section of dependencies that don't install on Darwin/MacOS
 bitsandbytes==0.45.4
 triton>=3.0.0
-mamba-ssm==1.2.0.post1
+# mamba-ssm==1.2.0.post1
 xformers>=0.0.23.post1
 autoawq==0.2.7.post3
 liger-kernel==0.5.9
