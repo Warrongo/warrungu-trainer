@@ -1,12 +1,15 @@
 --extra-index-url https://huggingface.github.io/autogptq-index/whl/cu118/
 
-# Ensure packaging is installed before mamba-ssm
+# 1) Install the core Axolotl package
+axolotl==0.9.0
+
+# 2) Ensure packaging is installed before any build‐time dependencies
 packaging==23.2
 
-# START section of dependencies that don't install on Darwin/MacOS
+# START section of dependencies that don’t install on Darwin/MacOS
 bitsandbytes==0.45.4
 triton>=3.0.0
-# mamba-ssm==1.2.0.post1
+# mamba-ssm==1.2.0.post1  # (commented out because it fails without torch)
 xformers>=0.0.23.post1
 autoawq==0.2.7.post3
 liger-kernel==0.5.9
