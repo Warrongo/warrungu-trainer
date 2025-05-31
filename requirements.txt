@@ -3,7 +3,7 @@
 # 1) Install the core Axolotl package
 axolotl==0.9.0
 
-# 2) Ensure packaging is installed before any build‐time dependencies
+# 2) Ensure packaging is installed before any build-time dependencies
 packaging==23.2
 
 # START section of dependencies that don’t install on Darwin/MacOS
@@ -12,7 +12,7 @@ triton>=3.0.0
 # mamba-ssm==1.2.0.post1  # (commented out because it fails without torch)
 xformers>=0.0.23.post1
 autoawq==0.2.7.post3
-liger-kernel==0.5.8      # ← changed from 0.5.9 to 0.5.8 (to match axolotl’s requirement)
+liger-kernel==0.5.8      # ← matches axolotl’s requirement
 # END section
 
 huggingface_hub==0.31.0
@@ -20,7 +20,7 @@ peft==0.15.2
 transformers==4.51.3
 tokenizers>=0.21.1
 accelerate==1.6.0
-datasets==3.5.1
+datasets==3.5.0          # ← downgraded from 3.5.1 to satisfy axolotl==0.9.0
 deepspeed>=0.15.4
 trl==0.17.0
 hf_xet==1.1.0
