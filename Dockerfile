@@ -1,29 +1,24 @@
-# Use a Python base image
+# Use a lightweight Python base
 FROM python:3.10-slim
 
-# (Optional) If you need system dependencies for bitsandbytes, xformers, etc., install them here:
-# RUN apt-get update && \
-#     apt-get install -y build-essential git curl && \
-#     rm -rf /var/lib/apt/lists/*
-
-# Set working directory
+# 1) Set working directory
 WORKDIR /app
 
-# Copy only requirements.txt first (for caching)
+# 2) Copy only requirements.txt for cached layer
 COPY requirements.txt .
 
-# Upgrade pip and install all Python dependencies
+# 3) Upgrade pip and install packaging first so mamba-ssm can import it during build
 RUN pip install --upgrade pip \
-    && pip install -r requirements.txt
+    && pip install packaging==23.2
 
-# Copy the rest of your repository into the image
+# 4) Now install everything in requirements.txt (including mamba-ssm)
+RUN pip install -r requirements.txt
+
+# 5) Copy the rest of your code (run.sh, axolotl_config.yml, dataset, etc.)
 COPY . .
 
-# Ensure run.sh is executable
+# 6) Make sure run.sh is executable
 RUN chmod +x run.sh
 
-# Expose no ports (we aren’t serving a web app)
-# If you were serving a web app, you might do: EXPOSE 7860
-
-# When the container starts, run your run.sh script
+# 7) When the container launches, run your training wrapper
 ENTRYPOINT ["bash", "run.sh"]
