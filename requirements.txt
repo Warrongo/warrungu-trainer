@@ -1,34 +1,34 @@
 # ====================================================================
-#   requirements.txt for running Axolotl 0.9.0 in a Space
+#   requirements.txt for running Axolotl 0.9.0 in a Space (fixed)
 # ====================================================================
 
-# (1) Download wheels from the custom index for autogptq/cu118
+# (1) Custom index for autogptq/cu118 wheels
 --extra-index-url https://huggingface.github.io/autogptq-index/whl/cu118/
 
 # (2) Core Axolotl package (locks several transitive versions)
 axolotl==0.9.0
 
-# (3) Ensure "packaging" is available before any build‐time deps
+# (3) Make sure "packaging" is available before any build‐time deps
 packaging==23.2
 
-# === Dependencies that do not install on macOS ===
+# === Dependencies that do not install cleanly on macOS ===
 bitsandbytes==0.45.4
 triton>=3.0.0
-# mamba-ssm==1.2.0.post1    # ← commented out because it fails without torch installed
+# mamba-ssm==1.2.0.post1   # (commented out because it fails without torch pre‐installed)
 xformers>=0.0.23.post1
 autoawq==0.2.7.post3
-liger-kernel==0.5.8         # ← match axolotl's locked version
+liger-kernel==0.5.8        # ← match axolotl 0.9.0’s locked version
 
 # === Hugging Face + Transformers ecosystem ===
-huggingface_hub==0.31.0
+huggingface_hub==0.30.1    # ← downgraded from 0.31.0 so that hf_xet==1.0.0 is allowed
 peft==0.15.2
 transformers==4.51.3
 tokenizers>=0.21.1
 accelerate==1.6.0
-datasets==3.5.0             # ← downgraded to satisfy axolotl 0.9.0
+datasets==3.5.0            # ← must be 3.5.0 to satisfy axolotl 0.9.0
 deepspeed>=0.15.4
 trl==0.17.0
-hf_xet==1.0.0               # ← downgraded to satisfy axolotl 0.9.0
+hf_xet==1.0.0              # ← locked by axolotl 0.9.0
 hqq==0.2.5
 
 optimum==1.16.2
@@ -36,7 +36,7 @@ hf_transfer
 sentencepiece
 gradio==5.23.3
 
-# === Miscellaneous utility libraries ===
+# === Miscellaneous utilities ===
 modal==0.70.5
 pydantic==2.10.6
 addict
@@ -73,7 +73,7 @@ langdetect==1.0.9
 immutabledict==4.2.0
 antlr4-python3-runtime==4.13.2
 
-torchao==0.9.0             # ← match axolotl's locked version
+torchao==0.9.0            # ← locked by axolotl 0.9.0
 schedulefree==1.4.1
 
 axolotl-contribs-lgpl==0.0.6
