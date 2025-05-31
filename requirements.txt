@@ -12,7 +12,7 @@ triton>=3.0.0
 # mamba-ssm==1.2.0.post1  # (commented out because it fails without torch)
 xformers>=0.0.23.post1
 autoawq==0.2.7.post3
-liger-kernel==0.5.9
+liger-kernel==0.5.8      # ← changed from 0.5.9 to 0.5.8 (to match axolotl’s requirement)
 # END section
 
 huggingface_hub==0.31.0
