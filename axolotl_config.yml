@@ -1,8 +1,13 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# axolotl_config.yml  (place this at the root of your Space repository)
+# ──────────────────────────────────────────────────────────────────────────────
+
 # === Model Setup ===
 base_model: mistralai/Mistral-7B-Instruct-v0.2
 model_type: MistralForCausalLM
 tokenizer_type: AutoTokenizer
 is_llama_derived_model: true
+
 low_cpu_mem_usage: false
 device_map:
   "": 0
@@ -11,16 +16,19 @@ max_memory:
 
 # === Data ===
 datasets:
-  - path: ./warrungu_chat_dataset.json
+  - path: ./warrungu_chat_dataset.json   # <-- this file must exist here (or be downloaded in run.sh)
     type: alpaca
     prompt_style: chat
 
+# Where the preprocessed tokens will go:
 dataset_prepared_path: ./prepared_warrungu_chat_dataset
+
+# Fraction of data to hold out for validation:
 val_set_size: 0.05
 
 prompt_fields:
   instruction: instruction
-  input: ""
+  input: ""         # no separate “input” field—just instruction→output pairs
   output: output
 
 # === Output & Checkpointing ===
@@ -34,7 +42,7 @@ sample_packing: false
 eval_sample_packing: false
 pad_to_sequence_len: true
 
-# === (No Adapter, No Quantization) ===
+# === No Adapter, No Quantization ===
 
 # === Training Hyperparameters ===
 gradient_accumulation_steps: 2
@@ -56,3 +64,5 @@ bf16: auto
 fp16: false
 tf32: true
 early_stopping_patience: 5
+
+# ──────────────────────────────────────────────────────────────────────────────
