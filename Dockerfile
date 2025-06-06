@@ -1,30 +1,28 @@
-# 1) Start from CUDA + dev toolchain
 FROM nvidia/cuda:12.4.0-devel-ubuntu22.04
 
-# 2) Install system build tools + pip
+# Install system dependencies + pip
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-      build-essential \        # gcc, g++, make
-      git \                    # repo cloning if needed
-      ca-certificates \        # for HTTPS downloads
-      python3-dev \            # headers for any C extensions
-      python3-pip &&           # brings in pip
+      build-essential \    # gcc, g++, make
+      git \                # for cloning repos (if needed)
+      ca-certificates \    # HTTPS certs
+      python3-dev \        # Python C headers
+      python3-pip &&       # brings in pip3
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
-# 3) Upgrade pip & lock packaging early
+# Upgrade pip & lock packaging
 RUN pip3 install --upgrade pip packaging==23.2
 
-# 4) Copy & install Python requirements
+# Install Python deps
 COPY requirements.txt .
 RUN pip3 install -r requirements.txt
 
-# 5) Copy your code
+# Copy app code
 COPY . .
 
-# 6) Make your entrypoint executable
+# Make the entrypoint executable
 RUN chmod +x run.sh
 
-# 7) Launch via your training wrapper
 ENTRYPOINT ["bash", "run.sh"]
