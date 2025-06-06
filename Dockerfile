@@ -1,7 +1,6 @@
-# Use NVIDIA's CUDA toolkit image (includes nvcc, headers, libs)
+# Stage 1: CUDA + build tools
 FROM nvidia/cuda:12.4.0-devel-ubuntu22.04
 
-# Install system build tools and Python C headers
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
       build-essential \
@@ -10,24 +9,18 @@ RUN apt-get update && \
       python3-dev && \
     rm -rf /var/lib/apt/lists/*
 
-# Set working directory
 WORKDIR /app
 
-# Copy only requirements.txt to leverage Docker layer caching
+# install pip and packaging
+RUN python3 -m ensurepip --upgrade && \
+    python3 -m pip install --upgrade pip packaging==23.2
+
+# Copy & install Python deps
 COPY requirements.txt .
+RUN python3 -m pip install -r requirements.txt
 
-# Upgrade pip and pin packaging
-RUN pip install --upgrade pip && \
-    pip install packaging==23.2
-
-# Install Python dependencies
-RUN pip install -r requirements.txt
-
-# Copy the rest of the application
+# Copy code & make entrypoint
 COPY . .
-
-# Ensure the training script is executable
 RUN chmod +x run.sh
 
-# When the container starts, kick off the training
 ENTRYPOINT ["bash", "run.sh"]
