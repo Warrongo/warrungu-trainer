@@ -2,7 +2,7 @@
 # 1) Point HOME at /tmp (prevent getpwuid)
 export HOME=/tmp
 
-# 2) Short‐circuit getpass.getuser() by setting USER/LOGNAME
+# 2) Short-circuit getpass.getuser() by setting USER/LOGNAME
 export USER=hfuser
 export LOGNAME=hfuser
 
@@ -15,8 +15,8 @@ fi
 
 # 4) Run Axolotl’s preprocess step
 echo "Preprocessing dataset with Axolotl..."
-python3 -m axolotl.cli.preprocess --config axolotl_config.yml
+axolotl preprocess axolotl_config.yml
 
 # 5) Launch training
 echo "Starting training..."
-python3 run_training.py
+axolotl train axolotl_config.yml
