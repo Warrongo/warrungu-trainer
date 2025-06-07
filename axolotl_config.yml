@@ -13,20 +13,19 @@ device_map:
   "": 0
 
 # === LoRA Adapter ===
-adapter: lora
+adapter: "lora"
 lora:
   r: 16
   alpha: 32
   dropout: 0.05
-  # if you want to be explicit, target the common proj names:
   target_modules:
-    - "q_proj"
-    - "k_proj"
-    - "v_proj"
-    - "o_proj"
-    - "gate_proj"
-    - "down_proj"
-    - "up_proj"
+    - "self_attn.q_proj"
+    - "self_attn.k_proj"
+    - "self_attn.v_proj"
+    - "self_attn.o_proj"
+    - "mlp.gate_proj"
+    - "mlp.up_proj"
+    - "mlp.down_proj"
 
 # === Data ===
 datasets:
