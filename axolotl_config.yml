@@ -29,9 +29,9 @@ prompt_fields:
 
 # === Output & Checkpointing ===
 output_dir: ./outputs/warrungu-mistral-chat
-hub_model_id: warrungu/warrungu-mistral-chat-ai   # ← your namespace/model
+hub_model_id: warrungu/warrungu-mistral-chat
 hub_strategy: every_save
-hub_private_repo: true                           # ← set false if you want it public
+hub_private_repo: true                     # ← set false if you want it public
 
 # === Sequence & Packing ===
 sequence_len: 2048
