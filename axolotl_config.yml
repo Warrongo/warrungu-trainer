@@ -5,28 +5,27 @@ tokenizer_type: AutoTokenizer
 is_llama_derived_model: true
 
 # === Quantization & Offload ===
-load_in_8bit: true            # use 8-bit for QLoRA
+load_in_8bit: true
 low_cpu_mem_usage: true
 gradient_checkpointing: true
 
 device_map:
   "": 0
 
-# === LoRA Adapter ===
-adapter: lora
-
-lora:
-  r: 16
-  alpha: 32
-  dropout: 0.05
-  target_modules:
-    - "q_proj"
-    - "k_proj"
-    - "v_proj"
-    - "o_proj"
-    - "gate_proj"
-    - "down_proj"
-    - "up_proj"
+# === PEFT Adapters ===
+adapters:
+  - type: lora
+    r: 16
+    alpha: 32
+    dropout: 0.05
+    target_modules:
+      - q_proj
+      - k_proj
+      - v_proj
+      - o_proj
+      - gate_proj
+      - down_proj
+      - up_proj
 
 # === Data ===
 datasets:
