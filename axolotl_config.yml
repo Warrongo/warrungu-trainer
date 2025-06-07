@@ -4,7 +4,10 @@ model_type: MistralForCausalLM
 tokenizer_type: AutoTokenizer
 is_llama_derived_model: true
 
-low_cpu_mem_usage: false
+# offload & checkpointing to save GPU RAM
+low_cpu_mem_usage: true
+gradient_checkpointing: true
+
 device_map:
   "": 0
 max_memory:
@@ -16,10 +19,7 @@ datasets:
     type: alpaca
     prompt_style: chat
 
-# Where the preprocessed tokens will go:
 dataset_prepared_path: ./prepared_warrungu_chat_dataset
-
-# Fraction of data to hold out for validation:
 val_set_size: 0.05
 
 prompt_fields:
@@ -35,13 +35,11 @@ hub_private_repo: true
 
 # === Sequence & Packing ===
 sequence_len: 2048
-sample_packing: false
-eval_sample_packing: false
 pad_to_sequence_len: true
 
 # === Training Hyperparameters ===
-gradient_accumulation_steps: 2
-micro_batch_size: 2
+gradient_accumulation_steps: 4      # smaller batches but accumulate more
+micro_batch_size: 1                # cut batch size in half
 num_epochs: 3
 optimizer: adamw_bnb_8bit
 lr_scheduler: cosine
@@ -55,7 +53,7 @@ logging_steps: 10
 
 train_on_inputs: false
 group_by_length: false
-bf16: auto
+bf16: true                          # use bfloat16 if your hardware supports it
 fp16: false
 tf32: false
 
