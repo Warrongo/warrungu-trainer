@@ -1,4 +1,3 @@
-# Dockerfile
 # Use NVIDIA CUDA base (includes toolkit & compilers)
 FROM nvidia/cuda:12.4.0-devel-ubuntu22.04
 
@@ -32,9 +31,12 @@ COPY . .
 # 6) Ensure your launcher is executable
 RUN chmod +x run.sh
 
-# 7) Pass HF token into container at build & runtime
+# 7) Create the outputs folder and give write permission
+RUN mkdir -p /app/outputs && chmod -R a+rwx /app/outputs
+
+# 8) Pass HF token into container at build & runtime
 ARG HF_HUB_TOKEN
 ENV HF_HUB_TOKEN=${HF_HUB_TOKEN}
 
-# 8) Kick off your training script
+# 9) Kick off your training script
 ENTRYPOINT ["bash", "run.sh"]
