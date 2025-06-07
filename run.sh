@@ -31,17 +31,19 @@ export PATCHED_CFG=/tmp/axolotl_config.yml
 echo "Patching config…"
 python3 - <<'PYCODE'
 import os, yaml
-orig = os.environ["ORIG_CFG"]
+orig    = os.environ["ORIG_CFG"]
 patched = os.environ["PATCHED_CFG"]
 with open(orig) as f:
     cfg = yaml.safe_load(f)
-# strip out offload directives
+# strip offload directives
 for key in ("device_map","max_memory","low_cpu_mem_usage","offload_folder"):
     cfg.pop(key, None)
 # force GPU 0, disable TF32
 cfg["device_map"] = {"": 0}
-cfg["tf32"] = False
-# point to our dataset
+cfg["tf32"]        = False
+# reinstate a valid hub_strategy
+cfg["hub_strategy"]      = "every_save"
+# point to our JSON dataset
 cfg["datasets"] = [{
     "path": "/tmp/warrungu_chat_dataset.json",
     "type": "alpaca",
