@@ -1,7 +1,6 @@
-# start from CUDA so Triton/Deepspeed just works
 FROM nvidia/cuda:12.4.0-devel-ubuntu22.04
 
-# install python3, pip, build tools & wget(for your run.sh)
+# 1) Install Python3, pip & build tools
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
       python3 \
@@ -10,29 +9,27 @@ RUN apt-get update && \
       python3-pip \
       build-essential \
       git \
-      wget \
       ca-certificates && \
     rm -rf /var/lib/apt/lists/*
 
-# make python3 the default "python"
+# 2) Make python3 the default
 RUN update-alternatives --install /usr/bin/python python /usr/bin/python3 1
 
 WORKDIR /app
 
-# copy & install requirements
+# 3) Copy & install requirements (including huggingface-cli)
 COPY requirements.txt .
-RUN python -m pip install --upgrade pip packaging==23.2 && \
-    python -m pip install -r requirements.txt
+RUN pip install --upgrade pip packaging==23.2 && \
+    pip install -r requirements.txt huggingface-hub
 
-# copy all your code + config + dataset
+# 4) Copy your training code + config
 COPY . .
 
-# make your launcher executable
+# 5) Make your launcher executable
 RUN chmod +x run.sh
 
-# build-arg for secret, and expose as both old & new env-vars
+# 6) Build‐time ARG & run‐time ENV for HF token
 ARG HF_HUB_TOKEN
 ENV HF_HUB_TOKEN=${HF_HUB_TOKEN}
-ENV HUGGINGFACE_HUB_TOKEN=${HF_HUB_TOKEN}
 
 ENTRYPOINT ["bash", "run.sh"]
