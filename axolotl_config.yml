@@ -18,7 +18,14 @@ lora:
   r: 16
   alpha: 32
   dropout: 0.05
-  # let PEFT auto-discover the common proj modules
+  target_modules:
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+    - "gate_proj"
+    - "down_proj"
+    - "up_proj"
 
 # === Data ===
 datasets:
