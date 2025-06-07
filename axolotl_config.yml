@@ -4,8 +4,8 @@ model_type: MistralForCausalLM
 tokenizer_type: AutoTokenizer
 is_llama_derived_model: true
 
-# offload & quantization
-load_in_8bit: true
+# === Quantization & Offload ===
+load_in_8bit: true            # use 8-bit for QLoRA
 low_cpu_mem_usage: true
 gradient_checkpointing: true
 
@@ -14,6 +14,7 @@ device_map:
 
 # === LoRA Adapter ===
 adapter: lora
+
 lora:
   r: 16
   alpha: 32
