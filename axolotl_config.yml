@@ -1,3 +1,4 @@
+# axolotl_config.yml
 # === Model Setup ===
 base_model: mistralai/Mistral-7B-Instruct-v0.2
 model_type: MistralForCausalLM
@@ -16,8 +17,16 @@ gradient_checkpointing: true
 device_map:
   "": 0
 
-# === LoRA adapter (now a string reference!) ===
-adapter: peft_config.yml
+# === LoRA adapter inline (required!) ===
+adapter:
+  type: LORA
+  r: 16
+  alpha: 32
+  target_modules:
+    - gate_proj
+    - up_proj
+    - down_proj
+  dropout: 0.05
 
 # === Data ===
 datasets:
@@ -35,7 +44,7 @@ hub_strategy: every_save
 hub_private_repo: true
 
 # === Sequence & Packing ===
-sequence_len: 1024           # halve input length
+sequence_len: 1024
 pad_to_sequence_len: true
 
 # === Training Hyperparameters ===
