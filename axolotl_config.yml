@@ -1,27 +1,24 @@
-# axolotl_config.yml
+# === Model Setup ===
 base_model: mistralai/Mistral-7B-Instruct-v0.2
 model_type: MistralForCausalLM
 tokenizer_type: AutoTokenizer
 is_llama_derived_model: true
 
-# 4-bit + offload
-load_in_4bit: true
-bnb_4bit_use_double_quant: true
-bnb_4bit_quant_type: nf4
-offload_folder: /tmp/offload
-offload_state: true
+# offload & quantization
+load_in_8bit: true               # ← use 8-bit for QLoRA
 low_cpu_mem_usage: true
 gradient_checkpointing: true
 
 device_map:
   "": 0
 
-# LoRA adapter with explicit target_modules
+# === LoRA Adapter ===
 adapter: lora
 lora:
   r: 16
   alpha: 32
   dropout: 0.05
+  # if you want to be explicit, target the common proj names:
   target_modules:
     - "q_proj"
     - "k_proj"
@@ -31,25 +28,26 @@ lora:
     - "down_proj"
     - "up_proj"
 
-# Data
+# === Data ===
 datasets:
   - path: ./warrungu_chat_dataset.json
     type: alpaca
     prompt_style: chat
+
 dataset_prepared_path: ./prepared_warrungu_chat_dataset
 val_set_size: 0.05
 
-# Output & Hub
+# === Output & Checkpointing ===
 output_dir: ./outputs/warrungu-mistral-chat
 hub_model_id: warrungu/warrungu-mistral-chat
 hub_strategy: every_save
 hub_private_repo: true
 
-# Sequence & Packing
+# === Sequence & Packing ===
 sequence_len: 1024
 pad_to_sequence_len: true
 
-# Training hyperparams
+# === Training Hyperparameters ===
 gradient_accumulation_steps: 8
 micro_batch_size: 1
 num_epochs: 3
@@ -57,7 +55,7 @@ optimizer: adamw_bnb_8bit
 lr_scheduler: cosine
 learning_rate: 2e-5
 
-# Logging & saving
+# === Logging & Saving ===
 save_steps: 50
 eval_steps: 10
 save_total_limit: 3
@@ -66,7 +64,7 @@ logging_steps: 10
 train_on_inputs: false
 group_by_length: false
 
-# Precision
+# === Precision Flags ===
 bf16: true
 fp16: false
 tf32: false
