@@ -4,17 +4,19 @@ model_type: MistralForCausalLM
 tokenizer_type: AutoTokenizer
 is_llama_derived_model: true
 
-# 4-bit quant + LoRA
+# offload & quantization
 load_in_4bit: true
 bnb_4bit_use_double_quant: true
 bnb_4bit_quant_type: nf4
+offload_folder: /tmp/offload
+offload_state: true
 low_cpu_mem_usage: true
 gradient_checkpointing: true
 
 device_map:
   "": 0
 
-# point at the adapter YAML you just made:
+# === LoRA adapter (now a string reference!) ===
 adapter: peft_config.yml
 
 # === Data ===
@@ -33,7 +35,7 @@ hub_strategy: every_save
 hub_private_repo: true
 
 # === Sequence & Packing ===
-sequence_len: 1024
+sequence_len: 1024           # halve input length
 pad_to_sequence_len: true
 
 # === Training Hyperparameters ===
@@ -53,7 +55,7 @@ logging_steps: 10
 train_on_inputs: false
 group_by_length: false
 
-bf16: false
+bf16: true
 fp16: false
 tf32: false
 
