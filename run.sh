@@ -23,37 +23,50 @@ if [[ ! -f "$DATA_JSON" ]]; then
     -o "$DATA_JSON"
 fi
 
-# 4) Rewrite your YAML config safely with Python
-ORIG="/app/axolotl_config.yml"
-PATCHED="/tmp/axolotl_config.yml"
+# 4) Prepare paths for Python patch
+export ORIG_CFG="/app/axolotl_config.yml"
+export PATCHED_CFG="/tmp/axolotl_config.yml"
+
+# 5) Rewrite your YAML config safely with Python
 python3 - <<'PYCODE'
-import yaml
-cfg = yaml.safe_load(open("$(printf '%s' "$ORIG")"))
-# Remove any offloading
+import os, yaml
+
+orig = os.environ["ORIG_CFG"]
+patched = os.environ["PATCHED_CFG"]
+
+cfg = yaml.safe_load(open(orig))
+
+# Drop any offloading directives (keep model fully on GPU)
 cfg.pop("device_map", None)
 cfg.pop("max_memory", None)
-# Point at our downloaded JSON
-cfg["datasets"] = [{"path": "/tmp/warrungu_chat_dataset.json",
-                    "type": "alpaca",
-                    "prompt_style": "chat"}]
+
+# Point to our downloaded JSON
+cfg["datasets"] = [{
+    "path": "/tmp/warrungu_chat_dataset.json",
+    "type": "alpaca",
+    "prompt_style": "chat"
+}]
+
 # Write prepared data into /tmp so it's writable
 cfg["dataset_prepared_path"] = "/tmp/prepared_warrungu_chat_dataset"
+
 # Turn tf32 off if your GPU doesn’t support it
 cfg["tf32"] = False
-with open("$(printf '%s' "$PATCHED")", "w") as f:
+
+with open(patched, "w") as f:
     yaml.safe_dump(cfg, f)
 PYCODE
 
-echo "Patched config written to $PATCHED:"
-grep -nE "datasets:|dataset_prepared_path:|tf32:" "$PATCHED"
+echo "Patched config written to $PATCHED_CFG:"
+grep -nE "datasets:|dataset_prepared_path:|tf32:" "$PATCHED_CFG"
 
-# 5) Prep the output directory
+# 6) Prep the output directory
 mkdir -p /tmp/prepared_warrungu_chat_dataset
 
-# 6) Preprocess
+# 7) Preprocess
 echo "Preprocessing dataset…"
-python3 -m axolotl.cli.preprocess --config "$PATCHED"
+python3 -m axolotl.cli.preprocess --config "$PATCHED_CFG"
 
-# 7) Train
+# 8) Train
 echo "Starting training…"
-python3 -m axolotl.cli.train "$PATCHED"
+python3 -m axolotl.cli.train "$PATCHED_CFG"
