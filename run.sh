@@ -23,8 +23,8 @@ if [ ! -f "$DATA_JSON" ]; then
 fi
 
 # 3) Patch your config so nothing is offloaded and tf32=false
-export ORIG_CFG=/app/axolotl_config.yml
-export PATCHED_CFG=/tmp/axolotl_config.yml
+ORIG_CFG=/app/axolotl_config.yml
+PATCHED_CFG=/tmp/axolotl_config.yml
 
 python3 - <<'PYCODE'
 import os, yaml
@@ -32,20 +32,19 @@ import os, yaml
 orig = os.environ["ORIG_CFG"]
 patched = os.environ["PATCHED_CFG"]
 
-# load original
 with open(orig) as f:
     cfg = yaml.safe_load(f)
 
 # remove any offload directives
-for key in ("device_map","max_memory","low_cpu_mem_usage","offload_folder"):
+for key in ("device_map", "max_memory", "low_cpu_mem_usage", "offload_folder"):
     cfg.pop(key, None)
 
 # force entire model on GPU 0
 cfg["device_map"] = {"": 0}
-# disable tf32 unless you have Ampere+
+# disable tf32 unless you have Ampere+ hardware
 cfg["tf32"] = False
 
-# update data paths
+# point at our in‐container dataset
 cfg["datasets"] = [{
     "path": "/tmp/warrungu_chat_dataset.json",
     "type": "alpaca",
@@ -53,7 +52,10 @@ cfg["datasets"] = [{
 }]
 cfg["dataset_prepared_path"] = "/tmp/prepared_warrungu_chat_dataset"
 
-# write it out
+# update hub settings to your namespace
+cfg["hub_model_id"] = "warrungu/warrungu-mistral-chat-ai"
+cfg["hub_private_repo"] = True
+
 with open(patched, "w") as f:
     yaml.safe_dump(cfg, f, sort_keys=False)
 print("Patched config written to", patched)
