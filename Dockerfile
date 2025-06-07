@@ -1,35 +1,39 @@
+# Use NVIDIA CUDA base (includes toolkit & compilers)
 FROM nvidia/cuda:12.4.0-devel-ubuntu22.04
 
-# 1) Install Python3, pip & build tools
+# 1) Install Python3, pip, curl & build tools
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
       python3 \
       python3-dev \
       python3-distutils \
       python3-pip \
-      build-essential \
-      git \
+      curl \                    # ← curl for run.sh downloads
+      build-essential \         # gcc, g++, make
+      git \                     # for cloning repos (if needed)
       ca-certificates && \
     rm -rf /var/lib/apt/lists/*
 
-# 2) Make python3 the default
+# 2) Make python3 the default `python`
 RUN update-alternatives --install /usr/bin/python python /usr/bin/python3 1
 
+# Set working directory
 WORKDIR /app
 
-# 3) Copy & install requirements (including huggingface-cli)
+# 3) Copy & install Python dependencies
 COPY requirements.txt .
 RUN pip install --upgrade pip packaging==23.2 && \
-    pip install -r requirements.txt huggingface-hub
+    pip install -r requirements.txt
 
-# 4) Copy your training code + config
+# 4) Copy your training code + configs + run scripts
 COPY . .
 
-# 5) Make your launcher executable
+# 5) Ensure your launcher is executable
 RUN chmod +x run.sh
 
-# 6) Build‐time ARG & run‐time ENV for HF token
+# 6) Pass HF token into container at build & runtime
 ARG HF_HUB_TOKEN
 ENV HF_HUB_TOKEN=${HF_HUB_TOKEN}
 
+# 7) Kick off your training script
 ENTRYPOINT ["bash", "run.sh"]
