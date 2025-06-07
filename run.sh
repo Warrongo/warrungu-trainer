@@ -21,16 +21,22 @@ if [ ! -f "./warrungu_chat_dataset.json" ]; then
     https://huggingface.co/spaces/warrungu/warrungu-trainer/resolve/main/warrungu_chat_dataset.json
 fi
 
-# 4) Clean & recreate the prepared‐data directory so it's writeable
-PREPARED_DIR="prepared_warrungu_chat_dataset"
-echo "Resetting ${PREPARED_DIR}…"
-rm -rf "${PREPARED_DIR}"
-mkdir -p "${PREPARED_DIR}"
+# 4) Redirect prepared‐data into a writable /tmp folder
+TMP_PREP="/tmp/prepared_warrungu_chat_dataset"
+echo "Patching axolotl_config.yml to use $TMP_PREP as dataset_prepared_path…"
+# This sed replaces the dataset_prepared_path line
+sed -i 's|^dataset_prepared_path:.*|dataset_prepared_path: '"$TMP_PREP"'|' axolotl_config.yml
 
-# 5) Preprocess with Axolotl
+# 5) Make sure /tmp/prepared_warrungu_chat_dataset exists
+echo "Ensuring $TMP_PREP exists and is empty…"
+rm -rf "$TMP_PREP"
+mkdir -p "$TMP_PREP"
+
+# 6) Preprocess with Axolotl
 echo "Preprocessing dataset with Axolotl..."
 python3 -m axolotl.cli.preprocess --config axolotl_config.yml
 
-# 6) Launch training
+# 7) Launch training
 echo "Starting training…"
 python3 run_training.py
+
