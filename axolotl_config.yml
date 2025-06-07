@@ -5,20 +5,20 @@ tokenizer_type: AutoTokenizer
 is_llama_derived_model: true
 
 # === Quantization & Offload ===
-load_in_8bit: true
+load_in_8bit: true            # use 8-bit for QLoRA
 low_cpu_mem_usage: true
 gradient_checkpointing: true
 
 device_map:
   "": 0
 
-# === PEFT Adapters ===
-adapters:
-  - type: lora
-    r: 16
-    alpha: 32
-    dropout: 0.05
-    target_modules:
+# === PEFT/LoRA Adapter ===
+peft_adapters:
+  - type: lora                # enable LoRA
+    r: 16                     # low-rank dimension
+    alpha: 32                 # scaling factor
+    dropout: 0.05             # adapter dropout
+    target_modules:           # exact Mistral proj modules to wrap
       - q_proj
       - k_proj
       - v_proj
