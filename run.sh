@@ -23,14 +23,17 @@ if [ ! -f "$DATA_JSON" ]; then
 fi
 
 # 3) Patch your config so nothing is offloaded and tf32=false
-ORIG_CFG=/app/axolotl_config.yml
-PATCHED_CFG=/tmp/axolotl_config.yml
+export ORIG_CFG=/app/axolotl_config.yml
+export PATCHED_CFG=/tmp/axolotl_config.yml
 
 python3 - <<'PYCODE'
-import yaml
+import os, yaml
+
+orig = os.environ["ORIG_CFG"]
+patched = os.environ["PATCHED_CFG"]
 
 # load original
-with open("$ORIG_CFG") as f:
+with open(orig) as f:
     cfg = yaml.safe_load(f)
 
 # remove any offload directives
@@ -51,9 +54,9 @@ cfg["datasets"] = [{
 cfg["dataset_prepared_path"] = "/tmp/prepared_warrungu_chat_dataset"
 
 # write it out
-with open("$PATCHED_CFG", "w") as f:
-    yaml.safe_dump(cfg, f)
-print("Patched config written to", "$PATCHED_CFG")
+with open(patched, "w") as f:
+    yaml.safe_dump(cfg, f, sort_keys=False)
+print("Patched config written to", patched)
 PYCODE
 
 # 4) Make sure the prep folder exists
