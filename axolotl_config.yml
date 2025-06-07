@@ -4,9 +4,18 @@ model_type: MistralForCausalLM
 tokenizer_type: AutoTokenizer
 is_llama_derived_model: true
 
-low_cpu_mem_usage: false
+# 4-bit quant + LoRA
+load_in_4bit: true
+bnb_4bit_use_double_quant: true
+bnb_4bit_quant_type: nf4
+low_cpu_mem_usage: true
+gradient_checkpointing: true
+
 device_map:
   "": 0
+
+# point at the adapter YAML you just made:
+adapter: peft_config.yml
 
 # === Data ===
 datasets:
@@ -17,19 +26,19 @@ datasets:
 dataset_prepared_path: ./prepared_warrungu_chat_dataset
 val_set_size: 0.05
 
-# === Output & HF Hub ===
+# === Output & Checkpointing ===
 output_dir: ./outputs/warrungu-mistral-chat
 hub_model_id: warrungu/warrungu-mistral-chat
 hub_strategy: every_save
 hub_private_repo: true
 
 # === Sequence & Packing ===
-sequence_len: 2048
+sequence_len: 1024
 pad_to_sequence_len: true
 
 # === Training Hyperparameters ===
-gradient_accumulation_steps: 2
-micro_batch_size: 2
+gradient_accumulation_steps: 8
+micro_batch_size: 1
 num_epochs: 3
 optimizer: adamw_bnb_8bit
 lr_scheduler: cosine
@@ -44,7 +53,7 @@ logging_steps: 10
 train_on_inputs: false
 group_by_length: false
 
-bf16: true
+bf16: false
 fp16: false
 tf32: false
 
