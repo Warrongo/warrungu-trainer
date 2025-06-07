@@ -4,21 +4,9 @@ model_type: MistralForCausalLM
 tokenizer_type: AutoTokenizer
 is_llama_derived_model: true
 
-# — 4-bit quantization —
-load_in_4bit: true
-bnb_4bit_use_double_quant: true
-bnb_4bit_quant_type: nf4
-low_cpu_mem_usage: true
-
-# — LoRA adapter configuration —
-adapter:
-  type: lora
-  r: 16
-  alpha: 32
-  modules:
-    - q_proj
-    - v_proj
-  dropout: 0.05
+low_cpu_mem_usage: false
+device_map:
+  "": 0
 
 # === Data ===
 datasets:
@@ -36,12 +24,12 @@ hub_strategy: every_save
 hub_private_repo: true
 
 # === Sequence & Packing ===
-sequence_len: 1024
+sequence_len: 2048
 pad_to_sequence_len: true
 
 # === Training Hyperparameters ===
-gradient_accumulation_steps: 8
-micro_batch_size: 1
+gradient_accumulation_steps: 2
+micro_batch_size: 2
 num_epochs: 3
 optimizer: adamw_bnb_8bit
 lr_scheduler: cosine
