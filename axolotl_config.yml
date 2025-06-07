@@ -4,14 +4,17 @@ model_type: MistralForCausalLM
 tokenizer_type: AutoTokenizer
 is_llama_derived_model: true
 
-# offload & checkpointing to save GPU RAM
+# offload & quantization
+load_in_4bit: true
+bnb_4bit_use_double_quant: true
+bnb_4bit_quant_type: nf4
+offload_folder: /tmp/offload
+offload_state: true
 low_cpu_mem_usage: true
 gradient_checkpointing: true
 
 device_map:
   "": 0
-max_memory:
-  0: 14GB
 
 # === Data ===
 datasets:
@@ -22,11 +25,6 @@ datasets:
 dataset_prepared_path: ./prepared_warrungu_chat_dataset
 val_set_size: 0.05
 
-prompt_fields:
-  instruction: instruction
-  input: ""
-  output: output
-
 # === Output & Checkpointing ===
 output_dir: ./outputs/warrungu-mistral-chat
 hub_model_id: warrungu/warrungu-mistral-chat
@@ -34,12 +32,12 @@ hub_strategy: every_save
 hub_private_repo: true
 
 # === Sequence & Packing ===
-sequence_len: 2048
+sequence_len: 1024           # halve input length
 pad_to_sequence_len: true
 
 # === Training Hyperparameters ===
-gradient_accumulation_steps: 4      # smaller batches but accumulate more
-micro_batch_size: 1                # cut batch size in half
+gradient_accumulation_steps: 8
+micro_batch_size: 1
 num_epochs: 3
 optimizer: adamw_bnb_8bit
 lr_scheduler: cosine
@@ -53,7 +51,8 @@ logging_steps: 10
 
 train_on_inputs: false
 group_by_length: false
-bf16: true                          # use bfloat16 if your hardware supports it
+
+bf16: true
 fp16: false
 tf32: false
 
