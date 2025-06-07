@@ -4,17 +4,21 @@ model_type: MistralForCausalLM
 tokenizer_type: AutoTokenizer
 is_llama_derived_model: true
 
-# Offload & 4-bit quantization
+# — Quantization to 4-bit —
 load_in_4bit: true
 bnb_4bit_use_double_quant: true
 bnb_4bit_quant_type: nf4
-offload_folder: /tmp/offload
-offload_state: true
 low_cpu_mem_usage: true
-gradient_checkpointing: true
 
-device_map:
-  "": 0
+# === LoRA Adapter ===
+peft_config:
+  adapter_type: lora         # LoRA
+  r: 16                      # LoRA rank
+  alpha: 32                  # LoRA scaling
+  target_modules:            # which modules to inject into
+    - "q_proj"
+    - "v_proj"
+  dropout: 0.05
 
 # === Data ===
 datasets:
@@ -25,14 +29,14 @@ datasets:
 dataset_prepared_path: ./prepared_warrungu_chat_dataset
 val_set_size: 0.05
 
-# === Output & Checkpointing ===
+# === Output & HF Hub ===
 output_dir: ./outputs/warrungu-mistral-chat
 hub_model_id: warrungu/warrungu-mistral-chat
 hub_strategy: every_save
 hub_private_repo: true
 
 # === Sequence & Packing ===
-sequence_len: 1024           # halved to fit in 4-bit GEMM
+sequence_len: 1024
 pad_to_sequence_len: true
 
 # === Training Hyperparameters ===
@@ -52,7 +56,6 @@ logging_steps: 10
 train_on_inputs: false
 group_by_length: false
 
-# === Mixed Precision ===
 bf16: true
 fp16: false
 tf32: false
