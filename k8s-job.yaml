@@ -1,0 +1,27 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: warrungu-trainer
+spec:
+  backoffLimit: 0
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+      - name: trainer
+        image: <your-docker-registry>/warrungu-trainer:latest
+        # if you need a GPU
+        resources:
+          limits:
+            nvidia.com/gpu: 1
+        env:
+        - name: HF_HUB_TOKEN
+          value: "<YOUR_TOKEN_HERE>"
+        volumeMounts:
+        - name: outputs
+          mountPath: /app/outputs
+      volumes:
+      - name: outputs
+        # you can switch this to a PVC if you prefer
+        hostPath:
+          path: /mnt/outputs-on-node
