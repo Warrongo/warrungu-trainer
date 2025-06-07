@@ -9,7 +9,7 @@ export LOGNAME=hfuser
 # 2) If a token is present, log in to HF
 if [ -n "$HF_HUB_TOKEN" ]; then
   echo "Logging in to Hugging Face Hub..."
-  echo "$HF_HUB_TOKEN" | huggingface-cli login --token
+  huggingface-cli login --token "$HF_HUB_TOKEN"
 else
   echo "Warning: HF_HUB_TOKEN is empty, gated repos will fail."
 fi
