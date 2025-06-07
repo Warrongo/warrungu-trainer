@@ -5,7 +5,7 @@ tokenizer_type: AutoTokenizer
 is_llama_derived_model: true
 
 # offload & quantization
-load_in_8bit: true               # ← use 8-bit for QLoRA
+load_in_8bit: true
 low_cpu_mem_usage: true
 gradient_checkpointing: true
 
@@ -13,19 +13,12 @@ device_map:
   "": 0
 
 # === LoRA Adapter ===
-adapter: "lora"
+adapter: lora
 lora:
   r: 16
   alpha: 32
   dropout: 0.05
-  target_modules:
-    - "self_attn.q_proj"
-    - "self_attn.k_proj"
-    - "self_attn.v_proj"
-    - "self_attn.o_proj"
-    - "mlp.gate_proj"
-    - "mlp.up_proj"
-    - "mlp.down_proj"
+  # let PEFT auto-discover the common proj modules
 
 # === Data ===
 datasets:
