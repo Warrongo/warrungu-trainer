@@ -4,11 +4,12 @@ model_type: MistralForCausalLM
 tokenizer_type: AutoTokenizer
 is_llama_derived_model: true
 
-low_cpu_mem_usage: false
+# Offload & low-memory flags
+low_cpu_mem_usage: true
+offload_folder: /tmp/offload
+
 device_map:
   "": 0
-max_memory:
-  0: 14GB
 
 # === Data ===
 datasets:
@@ -31,7 +32,7 @@ prompt_fields:
 output_dir: ./outputs/warrungu-mistral-chat
 hub_model_id: warrungu/warrungu-mistral-chat
 hub_strategy: every_save
-hub_private_repo: true                     # ← set false if you want it public
+hub_private_repo: true
 
 # === Sequence & Packing ===
 sequence_len: 2048
@@ -40,8 +41,10 @@ eval_sample_packing: false
 pad_to_sequence_len: true
 
 # === Training Hyperparameters ===
-gradient_accumulation_steps: 2
-micro_batch_size: 2
+gradient_checkpointing: true         # <— recompute activations on the fly
+gradient_accumulation_steps: 4       # <— increase to compensate micro_batch_size=1
+micro_batch_size: 1                  # <— shrink batch to fit in 14 GB
+
 num_epochs: 3
 optimizer: adamw_bnb_8bit
 lr_scheduler: cosine
@@ -57,6 +60,6 @@ train_on_inputs: false
 group_by_length: false
 bf16: auto
 fp16: false
-tf32: false       # ← disable TF32 if your GPU isn’t Ampere+
+tf32: false       # disable TF32 if your GPU isn’t Ampere+
 
 early_stopping_patience: 5
