@@ -1,7 +1,7 @@
-# 1) CUDA base image with toolkit & compilers
+# Dockerfile
 FROM nvidia/cuda:12.4.0-devel-ubuntu22.04
 
-# 2) Install Python, pip, build tools, git, certs
+# 1) Install Python3, pip & build tools
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
       python3 \
@@ -13,26 +13,25 @@ RUN apt-get update && \
       ca-certificates && \
     rm -rf /var/lib/apt/lists/*
 
-# 3) Make sure pip is the default python installer
+# 2) Make python3 the default
 RUN update-alternatives --install /usr/bin/python python /usr/bin/python3 1
 
-# 4) Set working directory
 WORKDIR /app
 
-# 5) Copy requirements & install
+# 3) Copy & install requirements
 COPY requirements.txt .
 RUN pip install --upgrade pip packaging==23.2 && \
     pip install -r requirements.txt
 
-# 6) Copy your code
+# 4) Copy your training code + config
 COPY . .
 
-# 7) Make your entrypoint script executable
+# 5) Make your launcher executable
 RUN chmod +x run.sh
 
-# 8) Pass your HF token into the container at runtime
+# 6) Build‐time arg & run‐time env var for HF token:
 ARG HF_HUB_TOKEN
 ENV HF_HUB_TOKEN=${HF_HUB_TOKEN}
 
-# 9) Launch training
 ENTRYPOINT ["bash", "run.sh"]
+
