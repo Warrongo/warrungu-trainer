@@ -1,12 +1,9 @@
 # axolotl_config.yml
-
-# === Model Setup ===
 base_model: mistralai/Mistral-7B-Instruct-v0.2
 model_type: MistralForCausalLM
 tokenizer_type: AutoTokenizer
 is_llama_derived_model: true
 
-# offload & quantization
 load_in_4bit: true
 bnb_4bit_use_double_quant: true
 bnb_4bit_quant_type: nf4
@@ -18,20 +15,13 @@ gradient_checkpointing: true
 device_map:
   "": 0
 
-# === Tell Axolotl which adapter to load ===
 adapter: lora
-
-# === LoRA hyperparameters ===
 lora:
   r: 16
   alpha: 32
-  target_modules:
-    - gate_proj
-    - up_proj
-    - down_proj
   dropout: 0.05
+  # no target_modules → auto applies to all Linear layers
 
-# === Data ===
 datasets:
   - path: ./warrungu_chat_dataset.json
     type: alpaca
@@ -40,17 +30,14 @@ datasets:
 dataset_prepared_path: ./prepared_warrungu_chat_dataset
 val_set_size: 0.05
 
-# === Output & Checkpointing ===
 output_dir: ./outputs/warrungu-mistral-chat
 hub_model_id: warrungu/warrungu-mistral-chat
 hub_strategy: every_save
 hub_private_repo: true
 
-# === Sequence & Packing ===
 sequence_len: 1024
 pad_to_sequence_len: true
 
-# === Training Hyperparameters ===
 gradient_accumulation_steps: 8
 micro_batch_size: 1
 num_epochs: 3
@@ -58,7 +45,6 @@ optimizer: adamw_bnb_8bit
 lr_scheduler: cosine
 learning_rate: 2e-5
 
-# === Logging & Saving ===
 save_steps: 50
 eval_steps: 10
 save_total_limit: 3
