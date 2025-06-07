@@ -2,7 +2,7 @@
 base_model: mistralai/Mistral-7B-Instruct-v0.2
 model_type: MistralForCausalLM
 tokenizer_type: AutoTokenizer
-is_llama_derived_model: true
+is_mistral_derived_model: true
 
 # === Quantization & Offload ===
 load_in_8bit: true            # enable QLoRA
@@ -13,19 +13,20 @@ device_map:
   "": 0
 
 # === LoRA Adapter ===
-adapter: lora                 # <-- must be here!
-lora:
-  r: 16
-  alpha: 32
-  dropout: 0.05
-  target_modules:
-    - q_proj
-    - k_proj
-    - v_proj
-    - o_proj
-    - gate_proj
-    - down_proj
-    - up_proj
+adapter: lora
+
+# LoRA hyperparameters (flat keys as expected by Axolotl)
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+lora_target_modules:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+  - gate_proj
+  - down_proj
+  - up_proj
 
 # === Data ===
 datasets:
