@@ -4,20 +4,20 @@ model_type: MistralForCausalLM
 tokenizer_type: AutoTokenizer
 is_llama_derived_model: true
 
-# — Quantization to 4-bit —
+# — 4-bit quantization —
 load_in_4bit: true
 bnb_4bit_use_double_quant: true
 bnb_4bit_quant_type: nf4
 low_cpu_mem_usage: true
 
-# === LoRA Adapter ===
-peft_config:
-  adapter_type: lora         # LoRA
-  r: 16                      # LoRA rank
-  alpha: 32                  # LoRA scaling
-  target_modules:            # which modules to inject into
-    - "q_proj"
-    - "v_proj"
+# — LoRA adapter configuration —
+adapter:
+  type: lora
+  r: 16
+  alpha: 32
+  modules:
+    - q_proj
+    - v_proj
   dropout: 0.05
 
 # === Data ===
