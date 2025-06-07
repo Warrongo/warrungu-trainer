@@ -1,0 +1,9 @@
+# peft_config.yml
+peft_type: LORA
+r: 16
+alpha: 32
+target_modules:
+  - gate_proj
+  - up_proj
+  - down_proj
+dropout: 0.05
